@@ -1,0 +1,87 @@
+<view wx:if="{{!show}}">真题练习短文</view>
+<view wx:else>
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    短文练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <view class="word-l" style="margin-left: 60rpx;" bindtap="goBack">
+  上一题
+</view>
+   <navigator url="../4/4">
+  <view class="word-d">
+  下一题
+</view>
+</navigator>
+      <!-- 文字 -->
+        <view class="word-m">
+          3/4
+        </view>
+        <view class="home-header-line"></view>
+
+        <view class="container2">
+        </view>
+        <view>
+          三、朗读短文（400个音节，共30分，限时4分钟,请在规定时间内完成阅读，到时自动停止）
+          <view style="color: lightslategray; margin-top: 10rpx;">
+            注意：录制过程中若未朗读完请不要松手，本程序无记录断点功能，若松手请从头开始朗读
+          </view>
+        </view>
+         <text class="w-p">距离该模块测试结束还有{{remainTime}}秒</text>
+          <view class="paragraph">
+          <view class="p-detail">
+            在繁华的巴黎大街的路旁，站着一个衣衫褴褛、头发斑白、双目失明的老人。他不像其他乞丐那样伸手向过路行人乞讨，而是在身旁立一块木牌，上面写着：“我什么也看不见！”街上过往的行人很多，看了木牌上的字都无动于衷，有的还淡淡一笑，便姗姗而去了。
+          </view>
+          <view class="p-detail">
+            这天中午，法国著名诗人让·彼浩勒也经过这里。他看看木牌上的字，问盲老人：“老人家，今天上午有人给你钱吗？”
+          </view>
+          <view class="p-detail">
+            盲老人叹息着回答：“我，我什么也没有得到。”说着，脸上的神情非常悲伤。
+          </view>
+          <view class="p-detail">
+            让·彼浩勒听了，拿起笔悄悄地在那行字的前面添上了“春天到了，可是”几个字，就匆匆地离开了。
+          </view>
+          <view class="p-detail">
+            晚上，让·彼浩勒又经过这里，问那个盲老人下午的情况。盲老人笑着回答说：“先生，不知为什么，下午给我钱的人多极了！” 让·彼浩勒听了，摸着胡子满意地笑了。
+          </view>
+          <view class="p-detail">
+            “春天到了，可是我什么也看不见！”这富有诗意的语言，产生这么大的作用，就在于它有非常浓厚的感情色彩。是的，春天是美好的，那蓝天白云，那绿树红花，那莺歌燕舞，那流水人家，怎么不叫人陶醉呢？但这良辰美景，对于一个双目失明的人来说，只是一片漆黑。当人们想到这个盲老人，一生中竟连万紫千红的春天//都不曾看到，怎能不对他产生同情之心呢？
+          </view>
+          </view>
+          <button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+<navigator url="../../../test/test" open-type="switchTab">
+  <view class="exit">
+  退出
+</view>
+</navigator>
+        </view>
+</view>
+</view>
+
+</view>
+</view>z

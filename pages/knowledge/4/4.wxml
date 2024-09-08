@@ -1,0 +1,38 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    普通话知识
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          普通话——历史沿革
+        </view>
+        <view class="word-m">
+          新中国时期。
+        </view>
+        <view class="home-header-line"></view>
+         <!-- 图片容器 -->
+         <view class="word-c">
+          <view class="p-conter">
+          <image style="position: relative; left: 17rpx; top: 4rpx" src="https://pic.vjshi.com/2018-12-01/a84700c7097047250d1b7f6e77569c6f/online/puzzle.jpg?x-oss-process=style/resize_w_720" mode="widthFix" class="p-size"/>
+          <view class="word-c-h" style="position: relative; left: 15rpx; top: 10rpx">
+          通过注音字母教授识字的祁建华
+        </view>
+        </view>
+        <view class="p-d">
+1949年，主持教材工作的叶圣陶力主将小学“国语”科改称“语文”。1950年《小学语文课程暂行标准（草案）》规定：“所谓语文，应是以北京音系为标准的普通话和照普通话写出的语体文。”“讲解用的语言，仍用以北京音系为标准的普通话，不用方言土语。”《小学语文教学大纲草案（初稿）》和《小学语文教学大纲（草案）》再次强调：“教给儿童的语言必须是规范化的汉民族的共同语言。这种语言就是以北京语音为标准音、以北方话为基础方言、以典范的现代白话文著作为语法规范的普通话。推广普通话是小学语文科的一项重要任务。”“第一是词的声音。这首先要求依照普通话的语音进行教学；在方言区域须特别注意正音工作。”中国科学院于1955年召开了现代汉语规范问题学术会议，会上确定把汉民族共同语称为普通话，主张向全国大力推广。会后经各方研究，正式确定现代汉民共同语的三项标准的含义，即“以北京语音为标准音，以北方话为基础方言，以典范的现代白话文著作为语法规范”。
+        </view>
+         </view>
+    </view>
+</view>
+</view>

@@ -1,0 +1,71 @@
+<!--pages/study/sd-study/sd-study.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    声调学习
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sd-detail/1/1">
+        <view class="word-d">
+          一声
+        </view>
+      </navigator>
+      <view class="word">
+        <view class="word-s">
+          阴平
+        </view>
+      </view>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sd-detail/2/2">
+        <view class="word-d">
+          二声
+        </view>
+      </navigator>
+      <view class="word">
+        <view class="word-s">
+          阳平
+        </view>
+      </view>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sd-detail/3/3">
+        <view class="word-d">
+          三声
+        </view>
+      </navigator>
+      <view class="word">
+        <view class="word-s">
+          上声
+        </view>
+      </view>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sd-detail/4/4">
+        <view class="word-d">
+          四声
+        </view>
+      </navigator>
+      <view class="word">
+        <view class="word-s">
+          去声
+        </view>
+      </view>
+    </view>
+</view>
+</view>

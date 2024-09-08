@@ -1,0 +1,80 @@
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    单音节练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->z
+    <view class="word">
+      <!-- 文字 -->
+      <navigator url="../../../test/test" open-type="switchTab">
+  <view class="word-l">
+  退出
+</view>
+</navigator>
+      <navigator url="../2/2">
+  <view class="word-d">
+  下一题
+</view>
+</navigator>
+        <view class="word-m">
+          1/4
+        </view>
+        <view class="home-header-line"></view>
+        <!-- 文字容器 -->
+        <view class="wordContainer">
+        <!-- 练习内容 -->
+        <view class="head">
+          一、读单音节字词（100个音节，共10分，限时3.5分钟，请在规定时间内完成阅读，到时自动停止）
+          <view style="color: lightslategray; margin-top: 10rpx;">
+            注意：录制过程中若未朗读完请不要松手，本程序无记录断点功能，若松手请从头开始朗读
+          </view>
+        </view>
+        <text class="word-h">距离该模块测试结束还有{{remainTime}}秒</text>
+        <view class="word-h">
+          卧 鸟 纱 悔 掠 酉 终 撤 甩 蓄 秧 四 仍 叫 台 婶 贼 耕 半 掐 布 癣 翁 弱 刷 允 床 改 逃 舂 驳 纯 导 虽 棒 伍 知 末 枪 蹦 港 评 犬 课 淮 炯 循 纺 拴 李 赛 捡 梯 呕 绳 揭 陇 搓 二 棉 桩 皿 宋 狭 内 啃 字 环 州 秒 抛 代 关 停 祛 德 孙 旧 崔 凝 烈 倪 荆 擒 案 砸 垮 焚 帝 聊 颠 涌 牛 汝 粤 篇 竹 草 迟 泛
+        </view>
+        </view>
+        <view class="detail_bottom">
+          <button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+</view>
+<view class='section'>
+</view>
+<view class="bottomItem">
+    完整度：
+    <text  wx:if="{{PronCompletion==1}}">不错</text>
+    <text wx:elif="{{PronCompletion==0}}">有待提高</text>
+</view>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+
+        </view>
+</view>
+</view>
+
+<navigator url="../../../test/test" open-type="switchTab">
+  <view class="exit">
+  退出
+</view>
+</navigator>
+</view>

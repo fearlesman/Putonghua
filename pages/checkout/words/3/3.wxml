@@ -1,0 +1,211 @@
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    单音节练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          3/5
+        </view>
+        <view class="home-header-line"></view>
+      <!-- 练习内容轮换区 -->
+        <view class="container2">
+          <view class="word-t">
+            {{content}}
+          </view>
+        </view>
+      <!-- 轮换按钮 -->
+        <view class="btnContainer">
+          <button bindtap="back" class="btn">点击更换上一字</button>
+          <button bindtap="rand" class="btn">点击更换下一字</button>
+        </view>
+        <view style="margin-top: 60rpx;" class="bottomItem">
+          完整度：
+          <text  wx:if="{{PronCompletion==1}}">不错</text>
+          <text wx:elif="{{PronCompletion==0}}">有待提高</text>
+      </view>
+      <view class="bottomItem">
+          流利度：
+          <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+          <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+          <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+          <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+          
+      </view>
+      <view class="bottomItem" style="margin-bottom: 200rpx;">
+          精准度: 
+          <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+          <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+          <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+          <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+      </view>
+        <!-- 文字容器 -->
+        <view class="wordBox">
+        <!-- 练习内容 -->
+        <view class="word-h">
+          电(diàn)
+        </view>
+        <view class="word-h">
+          远(yuǎn)
+        </view>
+        <view class="word-h">
+          日(rì)
+        </view>
+        <view class="word-h">
+          韦(wéi)
+        </view>
+        <!-- 练习内容 -->
+        <view class="word-h">
+          仄(zè)
+        </view>
+        <view class="word-h">
+          尖(jiān) 
+        </view>
+        <view class="word-h">
+          黄(huánɡ)
+        </view>
+        <view class="word-h">
+          塌(tā)
+        </view>
+        <!-- 练习内容 -->
+        <view class="word-h">
+          眉(méi)
+        </view>
+        <view class="word-h">
+          艘(sōu)
+        </view>
+        <view class="word-h">
+          临(lín)
+        </view>
+        <view class="word-h">
+          赚(zhuàn)
+        </view>
+        <!-- 练习内容 -->
+        <view class="word-h">
+          池(chí)
+        </view>
+        <view class="word-h">
+          憎(zēnɡ)
+        </view>
+        <view class="word-h">
+          饶(ráo)
+        </view>
+        <view class="word-h">
+          促(cù)
+        </view>
+        <!-- 练习内容 -->
+        <view class="word-h">
+          丝(sī)
+        </view>
+        <view class="word-h">
+          国(ɡuó)
+        </view>
+        <view class="word-h">
+          伞(sǎn)
+        </view>
+        <view class="word-h">
+          床(chuánɡ)
+        </view>
+        <!-- 练习内容 -->
+        <view class="word-h">
+          觅(mì)
+        </view>
+        <view class="word-h">
+          丢(diū)
+        </view>
+        <view class="word-h">
+          裙(qún)
+        </view>
+        <view class="word-h">
+          匾(biǎn)
+        </view>
+        <!-- 练习内容 -->
+        <view class="word-h">
+          庞(pánɡ)
+        </view>
+        <view class="word-h">
+          恩(ēn)
+        </view>
+        <view class="word-h">
+          俘(fú)
+        </view>
+        <view class="word-h">
+          拢(lǒnɡ)
+        </view>
+        <!-- 练习内容 -->
+        <view class="word-h">
+          醉(zuì)
+        </view>
+        <view class="word-h">
+          劳(láo)
+        </view>
+        <view class="word-h">
+          肉(ròu)
+        </view>
+        <view class="word-h">
+          萌(ménɡ)
+        </view>
+        <!-- 练习内容 -->
+        <view class="word-h">
+          倦(juàn)
+        </view>
+        <view class="word-h">
+          准(zhǔn)
+        </view>
+        <view class="word-h">
+          内(nèi)
+        </view>
+        <view class="word-h">
+          熏(xūn)
+        </view>
+        </view>
+        <view class="detail_bottom">
+          <button bindlongpress="ontouchstart" bindtouchend="ontouchend" class="btn2" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+</view>
+<view class='section'>
+<radio-group class="radio-group" bindchange="evalModeChange">
+  <label class="radio" wx:for="{{evalModeItems}}" wx:key="name">
+  <view class="radio">
+    <radio value="{{item.name}}" checked="{{item.checked}}" color="lightblue"/> {{item.value}}
+  </view>
+  </label>
+</radio-group>
+</view>
+
+        </view>
+        
+</view>
+<!-- <view style="margin-top: 60rpx;" class="bottomItem">
+    完整度：
+    <text  wx:if="{{PronCompletion==1}}">不错</text>
+    <text wx:elif="{{PronCompletion==0}}">有待提高</text>
+</view>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem" style="margin-bottom: 200rpx;">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view> -->
+</view>
+
+
+</view>

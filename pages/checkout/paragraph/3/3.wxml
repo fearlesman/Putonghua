@@ -1,0 +1,79 @@
+<view wx:if="{{!show}}">普通话段落练习3</view>
+<view wx:else>
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    短文练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          3/5
+        </view>
+        
+        <view class="home-header-line"></view>
+<!-- 音频组件 -->
+<view class="cont">
+<view class="card" style="background-color: lightblue; margin-left: 0rpx;">
+  <view style="font-size: large;">
+  短文范读
+</view>
+  <view class="w-sound1">
+    <image wx:if="{{collected}}" src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/开始.png" mode="" class="w-sound1" bindtap="audioPlay"/>
+          <image wx:else="" src="https://6770-gpt-0grastut6153c6bb-1316585463.tcb.qcloud.la/pictures/%E6%9A%82%E5%81%9C.png?sign=248c0e5fc6ff3e8888787f2a04b4eef0&t=1682312598" mode="" class="w-sound2" bindtap="pause"/>
+  </view>
+</view>
+<view class="dtl">
+  如未播放，请再次点击重试
+</view>
+</view>
+        <view class="container2">
+        </view>
+          <view class="paragraph">
+          <view class="p-detail">
+            小学的时候，有一次我们去海边远足，妈妈没有做便饭，给了我十块钱买午餐。好像走了很久，很久，终于到海边了，大家坐下来便吃饭，荒凉的海边没有商店，我一个人跑到防风林外面去，级任老师要大家把吃剩的饭菜分给我一点儿。有两三个男生留下一点儿给我，还有一个女生，她的米饭拌了酱油，很香。我吃完的时候，她笑眯眯地看着我，短头发（tóufɑ），脸圆圆的。
+          </view>
+          <view class="p-detail">
+            她的名字叫翁香玉。
+          </view>
+          <view class="p-detail">
+            每天放学的时候，她走的是经过我们家的一条小路，带着一位比她小的男孩儿，可能是弟弟。小路边是一条清澈（qīnɡchè）见底的小溪，两旁竹阴覆盖，我总是远远地跟在后面。夏日的午后特别炎热，走到半路她会停下来，拿手帕（shǒupà）在溪水里浸湿（jìnshī），为小男孩儿擦脸。我也在后面停下来，把肮脏的手帕弄湿了擦脸，再一路远远跟着她回家。
+          </view>
+          <view class="p-detail">
+            后来我们家搬到镇上去了，过几年我也上了中学。有一天放学回家，在火车上，看见斜对面一位短头发、圆圆脸的女孩儿，一身素净（sùjinɡ）的白衣黑裙。我想她一定不认识（rènshi）我了。火车很快到站了，我随着人群挤向门口，她也走近了，叫我的名字（mínɡzi）。这是她第一次和我说话。
+          </view>
+          <view class="p-detail">
+            她笑眯眯的，和我一起走过月台。以后就没有再见过她了。
+          </view>
+          </view>
+          <button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+        </view>
+</view>
+</view>
+
+</view>
+</view>

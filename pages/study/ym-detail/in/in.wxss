@@ -1,0 +1,2 @@
+/* pages/study/ym-detail/in/in.wxss *//* pages/study/ym-detail/an/an.wxss */
+@import "../../detail.wxss";

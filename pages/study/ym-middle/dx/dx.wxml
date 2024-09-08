@@ -1,0 +1,369 @@
+<!--pages/study/ym-middle/dx/dx.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    单韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/a/a">
+        <view class="word-d">
+          a
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/o/o">
+        <view class="word-d">
+          o
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/e/e">
+        <view class="word-d">
+          e
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/i/i">
+        <view class="word-d">
+          i
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/u/u">
+        <view class="word-d">
+          u
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/v/v">
+        <view class="word-d">
+          ü
+        </view>
+      </navigator>
+    </view>
+</view>
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    前响复韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ai/ai">
+        <view class="word-d">
+          ai
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ei/ei">
+        <view class="word-d">
+          ei
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ao/ao">
+        <view class="word-d">
+          ao
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ou/ou">
+        <view class="word-d">
+          ou
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    中响复韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/iao/iao">
+        <view class="word-d">
+          iao
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/iou/iou">
+        <view class="word-d">
+          iou
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/uai/uai">
+        <view class="word-d">
+          uai
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/uei/uei">
+        <view class="word-d">
+          uei
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    后响复韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ia/ia">
+        <view class="word-d">
+          ia
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ie/ie">
+        <view class="word-d">
+          ie
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ua/ua">
+        <view class="word-d">
+          ua
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/uo/uo">
+        <view class="word-d">
+          uo
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ve/ve">
+        <view class="word-d">
+          üe
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    前鼻音韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/an/an">
+        <view class="word-d">
+          an
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/en/en">
+        <view class="word-d">
+          en
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/in/in">
+        <view class="word-d">
+          in
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/vn/vn">
+        <view class="word-d">
+          ün
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ian/ian">
+        <view class="word-d">
+          ian
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/uan/uan">
+        <view class="word-d">
+          uan
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/van/van">
+        <view class="word-d">
+          üan
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/uen/uen">
+        <view class="word-d">
+          uen
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    后鼻音韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ang/ang">
+        <view class="word-d">
+          ang
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/eng/eng">
+        <view class="word-d">
+          eng
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ing/ing">
+        <view class="word-d">
+          ing
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ong/ong">
+        <view class="word-d">
+          ong
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/iang/iang">
+        <view class="word-d">
+          iang
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/uang/uang">
+        <view class="word-d">
+          uang
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/ueng/ueng">
+        <view class="word-d">
+          ueng
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../../ym-detail/iong/iong">
+        <view class="word-d">
+          iong
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+</view>

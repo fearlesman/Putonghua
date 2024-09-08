@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "pow":"/components/powered/powered",
+    "privacy":"/components/privacyPopup/privacyPopup"
+  }
+}

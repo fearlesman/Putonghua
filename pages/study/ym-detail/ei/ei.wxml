@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    前响复韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          ei
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-m">
+          普通话中动程较短的复元音
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          舌尖抵住下齿背，使舌面前部（略后）隆起对着硬腭中部。舌位从e开始舌位升高。
+        </view>
+    </view>
+</view>
+</view>

@@ -1,0 +1,53 @@
+/* pages/study/ym-middle/dx/dx.wxss */
+/* pages/study/ym-study/ym-study.wxss */
+.selection{
+  padding-top: 26rpx;
+  background-color: #fff;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+}
+.hearder{
+  margin-left: 25rpx;
+  margin-right: 6px;
+  background-color: #2979ff;
+  border: 1rpx solid #2979ff;
+  border-radius: 30rpx;
+  width: 7rpx;
+  height: 26rpx;
+  float: left;
+}
+.hearder-t{
+  margin-top: -6rpx;
+  font-size: 28rpx;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+  margin: 30rpx 15rpx 15rpx 15rpx;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+}
+.word{
+  float: left;
+  margin-bottom: 25rpx;
+  margin-left: 27rpx;
+  color: lightskyblue;
+}
+.word-d{
+  flex: 1; 
+  border: lightskyblue 3rpx solid;
+  border-radius: 10rpx;
+  background-color: lightblue;
+  width: 80rpx;
+  padding-top: 26rpx;
+  padding-bottom: 26rpx;
+  height: rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+  float: left;
+  color: white;
+  font-weight: 500;
+}

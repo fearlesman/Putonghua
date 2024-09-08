@@ -1,0 +1,73 @@
+/* pages/study/ym-study/ym-study.wxss */
+.selection{
+  padding-top: 26rpx;
+  background-color: #fff;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+  height: 100vh;
+}
+.containerBox{
+  display: flex;
+  flex-direction: column;
+}
+.hearder{
+  margin-left: 25rpx;
+  margin-right: 6px;
+  background-color: #2979ff;
+  border: 1rpx solid #2979ff;
+  border-radius: 30rpx;
+  width: 7rpx;
+  height: 26rpx;
+  float: left;
+}
+.hearder-t{
+  margin-top: -6rpx;
+  font-size: 28rpx;
+}
+.card {
+  flex: 1;
+  padding: 15rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 14rpx;
+  margin: 40rpx 15rpx 30rpx 15rpx;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+  height: fit-content;
+  border: #add8e69f 1rpx solid;
+  background-image:linear-gradient(315deg,#c2e59c2f 0% ,#add8e69f 60%);
+}
+.word{
+  margin-bottom: 20rpx;
+  margin-left: 14rpx;
+  margin-right: 14rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.word-d{
+  padding-top: 10rpx;
+  padding-bottom: 26rpx;
+  text-align: left;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font: large 黑体;
+}
+.word-s{
+  font-size: small;
+  font-family: 宋体;
+}
+.p-container{
+  position: absolute;
+  right: 10rpx;
+  height: 128rpx;
+  width: 128rpx;
+}
+.page {
+  position:absolute;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+  color: #666;
+  text-align: center;
+}

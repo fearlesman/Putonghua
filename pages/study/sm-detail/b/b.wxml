@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    双唇音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          b
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound" bindtap="audioPlay"/>
+        </view>
+        <view class="word-m">
+          双唇、不送气、清、塞音
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          发音时,双唇闭合,软腭上升,堵塞鼻腔通路,声带不振动,较弱的气流冲破双唇的阻碍,进裂而出,爆发成声。
+        </view>
+    </view>
+</view>
+</view>

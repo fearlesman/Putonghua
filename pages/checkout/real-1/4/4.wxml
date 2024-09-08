@@ -1,0 +1,71 @@
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    命题说话练习（请在以下话题中任选一个）
+    
+  </view>
+  <view class="word-l" style="margin-left: 60rpx;" bindtap="goBack">
+  上一题
+</view>
+<navigator url="../../../test/test" open-type="switchTab">
+  <view class="word-d" style="margin-left: 60rpx;">
+  退出
+</view>
+</navigator>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          4/4
+        </view>
+        <view class="home-header-line"></view>
+        <view class="head">
+            四、命题说话（请在下列话题中任选一个，共40分，限时3分钟，请在规定时间内完成阅读，到时自动停止）
+             <text class="w-p">距离该模块测试结束还有{{remainTime}}秒</text>
+            <view style="color: lightslategray; margin-top: 10rpx;font-size: x-small;">
+            注意：录制过程中若未朗读完请不要松手，本程序无记录断点功能，若松手请从头开始朗读
+          </view>
+        </view>
+        <view class="container2">
+        </view>
+          <view class="paragraph">
+          <view class="p-detail">
+            1.我尊敬的人
+          </view>
+          <view class="p-detail">
+            2.我的业余生活
+          </view>
+          </view>
+        </view>
+</view>
+<button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+</view>
+<navigator url="../../../test/test" open-type="switchTab">
+  <view class="exit">
+  退出
+</view>
+</navigator>
+</view>

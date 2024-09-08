@@ -1,0 +1,72 @@
+<privacy  bind:agree="agree" bind:disagree="disagree"></privacy>
+<view class='container'>
+
+  <!--头像名称-->
+  <view class="box" style="height: fit-content;">
+  <view class="partOne">
+  <view class="p-container1" style="width: 231rpx; height: 64rpx; display: flex; box-sizing: border-box; left: 486rpx; top: 87rpx">
+    <image src="" class="logo" ></image>
+  </view>
+  <view class="userinfo">
+    <button class="bg" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar"  style="width: 128rpx; height: 128rpx; display: block; box-sizing: border-box; left: 10rpx; top: 5rpx; position: relative">
+      <image class="userinfo-avatar" src="{{avatarUrl}}" style="width: 128rpx; height: 128rpx; display: inline-block; box-sizing: border-box; position: absolute; left: 0rpx; top: 0rpx"></image>
+    </button>
+    <input type="nickname" class="userinfo-nickname" placeholder="请输入昵称" />
+    <view class="user-info-text">查看/编辑用户信息</view>
+  </view>
+</view>
+</view>
+<view class="box" style="padding-top: 10rpx;">
+<view class="hearder"></view>
+      <!-- 文字 -->
+  <view class="hearder-t">
+    功能目录
+  </view>
+<navigator url="/pages/test/test" open-type="switchTab" class="card">
+    <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+  <view class="item">
+    几分钟评估你的发音准确度
+        <view class="btn">
+          点击测试
+        </view>
+  </view>
+</navigator>
+<navigator url="/pages/study/study" open-type="switchTab" class="card">
+    <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+  <view class="item">
+    学习发音知识
+        <view class="btn">
+          点击学习
+        </view>
+  </view>
+</navigator>
+  <navigator url="/pages/apply/apply" class="card">
+    <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+  <view class="item">
+    了解普通话应用场景
+        <view class="btn">
+          点击了解
+        </view>
+  </view>
+</navigator>
+  <navigator url="/pages/knowledge/catalog/catalog" class="card">
+    <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+  <view class="item">
+    普通话历史知识科普
+        <view class="btn">
+          点击了解
+        </view>
+  </view>
+</navigator>
+<pow></pow>
+</view>
+  </view>
+

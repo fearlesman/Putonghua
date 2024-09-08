@@ -1,0 +1,96 @@
+<!-- 普通话知识 -->
+
+<view class="selection" >
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+<view class="hearder-t">
+    普通话知识
+  </view>
+<!-- 
+  <navigator url="/pages/knowledge/1/1">
+
+  <view class="card">
+    <view class="word">
+        <view class="word-h">
+          滦平采音
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image style="position: relative; left: 0rpx; top: 22rpx" src="/pages/pictures/knowledge.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          滦平 ——“普通话之乡”。
+        </view>
+    </view>
+    <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+</view>
+</navigator> -->
+
+<navigator url="/pages/knowledge/2/2">
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          普通话一词历史
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image style="position: relative; left: 0rpx; top: 22rpx" src="/pages/pictures/knowledge.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          “普通话”这个词早在清末就出现了。
+        </view>
+    </view>
+    <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+</view>
+</navigator>
+<navigator url="/pages/knowledge/3/3">
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          普通话推行
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image style="position: relative; left: 0rpx; top: 22rpx" src="/pages/pictures/knowledge.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          民国与新中国时期。
+        </view>
+    </view>
+    <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+</view>
+</navigator>
+<navigator url="/pages/knowledge/4/4">
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          普通话——历史沿革
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image style="position: relative; left: 0rpx; top: 22rpx" src="/pages/pictures/knowledge.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+         新中国时期。
+        </view>
+    </view>
+    <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+</view>
+</navigator>
+</view>

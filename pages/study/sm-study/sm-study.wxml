@@ -1,0 +1,306 @@
+<!--pages/study/sm-study/sm-study.wxml-->
+
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    双唇音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/b/b">
+        <view class="word-d">
+          b
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/p/p">
+        <view class="word-d">
+          p
+        </view>
+      </navigator>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/m/m">
+        <view class="word-d">
+          m
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<!--  -->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    唇齿音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <view class="p-container">
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/f/f">
+        <view class="word-d">
+          f
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<!--  -->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌尖前音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <view class="p-container">
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/z/z">
+        <view class="word-d">
+          z
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/c/c">
+        <view class="word-d">
+          c
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/s/s">
+        <view class="word-d">
+          s
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<!--  -->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌尖中音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <view class="p-container">
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/d/d">
+        <view class="word-d">
+          d
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/t/t">
+        <view class="word-d">
+          t
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/n/n">
+        <view class="word-d">
+          n
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/l/l">
+        <view class="word-d">
+          l
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<!--  -->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌尖后音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <view class="p-container">
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/zh/zh">
+        <view class="word-d">
+          zh
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/ch/ch">
+        <view class="word-d">
+          ch
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/sh/sh">
+        <view class="word-d">
+          sh
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/r/r">
+        <view class="word-d">
+          r
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<!--  -->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌面音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <view class="p-container">
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/j/j">
+        <view class="word-d">
+          j
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/q/q">
+        <view class="word-d">
+          q
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/x/x">
+        <view class="word-d">
+          x
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+<!--  -->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌根音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <view class="p-container">
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/g/g">
+        <view class="word-d">
+          g
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/k/k">
+        <view class="word-d">
+          k
+        </view>
+      </navigator>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+      <navigator url="../sm-detail/h/h">
+        <view class="word-d">
+          h
+        </view>
+      </navigator>
+    </view>
+</view>
+</view>
+

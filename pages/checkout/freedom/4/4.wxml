@@ -1,0 +1,51 @@
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    命题说话练习（请在以下话题中任选一个）
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          4/5
+        </view>
+        <view class="home-header-line"></view>
+
+        <view class="container2">
+        </view>
+          <view class="paragraph">
+          <view class="p-detail">
+            1.谈谈服饰
+          </view>
+          <view class="p-detail">
+            2.我的家乡（或熟悉的地方）
+          </view>
+          </view>
+        </view>
+</view>
+<button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+</view>
+</view>

@@ -1,0 +1,54 @@
+/* pages/study/jm-study/jm-study.wxss *//* pages/study/study.wxss */
+.selection{
+  padding-top: 26rpx;
+  background-color: #fff;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+}
+.hearder{
+  margin-left: 25rpx;
+  margin-right: 6px;
+  background-color: #2979ff;
+  border: 1rpx solid #2979ff;
+  border-radius: 30rpx;
+  width: 7rpx;
+  height: 26rpx;
+  float: left;
+}
+.hearder-t{
+  margin-top: -6rpx;
+  font-size: 28rpx;
+}
+.card {
+  padding: 15rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+  margin: 30rpx 15rpx 15rpx 15rpx;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+  border: #add8e69f 1rpx solid;
+  background-image:linear-gradient(315deg,#c2e59c2f 0% ,#add8e69f 60%);
+}
+.word{
+  margin-bottom: 25rpx;
+  margin-left: 10rpx;
+}
+.word-d{
+  padding-top: 10rpx;
+  padding-bottom: 26rpx;
+  height: rpx;
+  text-align: left;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  color: black;
+  font: large 黑体;
+}
+.word-s{
+  font-size: small;
+  font-family: 宋体;
+}
+.p-container{
+  position: absolute;
+  right: 10rpx;
+  height: 128rpx;
+  width: 128rpx;
+}

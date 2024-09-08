@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌尖中音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          n
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound" bindtap="audioPlay"/>
+        </view>
+        <view class="word-m">
+          舌尖中、浊、鼻音
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          发音时,舌尖抵住上齿龈，软腭下降，打开鼻腔通路，气流振动声带，从鼻腔通过发音；阻碍解除时，气流冲破舌尖的阻碍，发出轻微的塞音。
+        </view>
+    </view>
+</view>
+</view>

@@ -1,0 +1,81 @@
+/* pages/knowledge/3/3.wxss *//* pages/study/sm-detail/b/b.wxss */
+.selection{
+  padding-top: 26rpx;
+  background-color: #fff;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+}
+.hearder{
+  margin-left: 25rpx;
+  margin-right: 6px;
+  background-color: #2979ff;
+  border: 1rpx solid #2979ff;
+  border-radius: 30rpx;
+  width: 7rpx;
+  height: 26rpx;
+  float: left;
+}
+.hearder-t{
+  margin-top: -6rpx;
+  font-size: 28rpx;
+}
+.card {
+  display: flex;
+  padding: 15rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+  margin: 30rpx 15rpx 15rpx 15rpx;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+}
+.home-header-line {
+  width: 100%;
+  background: #e0e3da;
+  height: 2rpx;
+  clear: both;
+}
+.word{
+  margin-left: 24rpx;
+  float: left;
+}
+.word-h{
+  font-size: 30rpx;
+}
+.word-m{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  margin-bottom: 12rpx;
+  color: #5e5e5e;
+}
+.word-c{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  line-height: 45rpx;
+  text-indent: 4rem;
+}
+.w-sound{
+  width: 30rpx;
+  height: 30rpx;
+}
+.p-size{
+  height: 190rpx;
+  width: 320rpx;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.p-conter{
+  height: fit-content;
+  text-align: justify;
+  float: left;
+  margin-left: -130rpx;
+  padding-right: 1rem;
+}
+.word-c-h{
+  color: gray;
+  font-size: small;
+  margin-top: 5rpx;
+  margin-right: 0.5rem;
+}
+.p-d{
+  text-indent: 1rem;
+}

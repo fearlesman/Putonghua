@@ -1,0 +1,122 @@
+/* pages/index/index.wxss */
+.resps{
+  word-break:break-all;
+  margin-bottom: 50rpx;
+  }
+  /* pages/study/sm-detail/b/b.wxss */
+  .selection{
+    padding-top: 26rpx;
+    background-color: #fff;
+    border: 1rpx solid #efefef;
+    border-radius: 8rpx;
+    width: 100%;
+  }
+  .hearder{
+    margin-left: 25rpx;
+    margin-right: 6px;
+    background-color: #2979ff;
+    border: 1rpx solid #2979ff;
+    border-radius: 30rpx;
+    width: 7rpx;
+    height: 26rpx;
+    float: left;
+  }
+  .hearder-t{
+    margin-top: -6rpx;
+    font-size: 28rpx;
+  }
+  .card {
+    display: flex;
+    padding: 15rpx;
+    border: 1rpx solid #efefef;
+    border-radius: 8rpx;
+    margin: 80rpx 15rpx 15rpx 15rpx;
+    box-shadow: 1rpx 1rpx 15rpx #ddd;
+    width: 70%;
+    position: relative;
+    left: 11%;
+  }
+  .home-header-line {
+    background: #e0e3da;
+    height: 2rpx;
+    clear: both;
+    width: 470rpx;
+  }
+  .word{
+    margin-left: 24rpx;
+    float: left;
+  }
+  .word-h{
+    font-size: 30rpx;
+    margin: 20rpx 15rpx 10rpx 15rpx;
+    padding: 10rpx;
+    border: lightblue 2rpx solid;
+    border-radius: 4rpx;
+    width: fit-content;
+    text-align: center;
+  }
+  .word-m{
+    font-size: 24rpx;
+    margin-top: 4rpx;
+    margin-bottom: 12rpx;
+    color: #5e5e5e;
+    text-align: center;
+    width: 100%;
+  }
+  .word-c{
+    font-size: 30rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    line-height: 45rpx;
+  }
+  .detail_bottom{
+    top: auto;
+    position:relative;
+  }
+  .container2{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    text-align: center;
+    clear: both;
+  
+  }
+  .word-t{
+    font-size: x-large;
+    font-family:楷体;
+    text-align: justify;
+  }
+  .btn{
+    width: max-content;
+    background-color: lightblue;
+    color: #fff;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: background-color 0.3s ease-out;
+  }
+  .btn:active{
+    background-color: lightslategray;
+    transition: none;
+  }
+  
+  .bottomItem{
+    font-size: large;
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+    margin-bottom: 40rpx;
+  }
+  .paragraph{
+    font-size: large;
+    font-family: 黑体;
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+  }
+  .p-detail
+  {
+    text-align: justify;
+    font-family: 楷体;
+    font-size: x-large;
+    margin-top: 10rpx;
+  }

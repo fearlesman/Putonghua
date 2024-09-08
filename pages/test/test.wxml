@@ -1,0 +1,126 @@
+<!--pages/study/study.wxml-->
+<privacy  bind:agree="agree" bind:disagree="disagree"></privacy>
+<!--pages/study/ym-study/ym-study.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    普通话发音测试
+  </view>
+  <!-- 容器 -->
+  <view class="containerBox">
+  <!-- 卡片效果 + 导航 -->
+<navigator url="/pages/checkout/words/words">
+  <view class="card">
+    <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          单音节字词测试
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        是基础的字词发音哦！
+      </view>
+    </view>
+</view>
+</navigator>
+  <!-- 卡片效果 + 导航 -->
+<navigator url="/pages/checkout/moreWords/moreWords">
+  <view class="card">
+    <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          多音节字词测试
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        更复杂了！
+      </view>
+    </view>
+</view>
+</navigator>
+  <!-- 卡片效果 + 导航 -->
+<navigator url="/pages/checkout/paragraph/paragraph">
+  <view class="card">
+    <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          朗读短文测试
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        来试试使用普通话阅读！
+      </view>
+    </view>
+</view>
+</navigator>
+  <!-- 卡片效果 + 导航 -->
+<navigator url="/pages/checkout/freedom/freedom">
+  <view class="card">
+    <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          命题说话测试
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        这是自由朗读测试哦！
+      </view>
+    </view>
+</view>
+</navigator>
+  <!-- 卡片效果 + 导航 -->
+<navigator url="/pages/checkout/real-1/1/1">
+  <view class="card">
+    <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          真题测试
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        这是普通话等级考试的原题哦！
+      </view>
+    </view>
+</view>
+</navigator>
+</view>
+<pow></pow>
+</view>
+
+
+

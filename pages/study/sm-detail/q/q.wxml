@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌面音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          q
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound" bindtap="audioPlay"/>
+        </view>
+        <view class="word-m">
+          舌面、送气、清、塞擦音
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          发音的情况和j相比，只是气流较强，其余都相同。
+        </view>
+    </view>
+</view>
+</view>

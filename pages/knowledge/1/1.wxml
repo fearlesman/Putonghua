@@ -1,0 +1,35 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection" >
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    普通话知识
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          滦平采音
+        </view>
+        <view class="word-m">
+          滦平 ——“普通话之乡”。
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+        河北省承德市滦平县是普通话标准音的主要采集地。（一些词语当地极少使用则在其他地方采音。）1953年，为制定中国通用语言的语音规范，当时的中央人民政府政务院派出专家在滦平进行语音采集。他们在为制定中国通用语言规范进行取音考察，在滦平进行了语音采集。作为全国规范用语，普通话需要音节口型顺畅，声调简明，易于分辨，甚至要求语速适中，气流连贯，韵味充足，适于广播、演讲和日常交流，如此才适合作为推向全国的公共用语。从后来普通话的规范来看，滦平日常的语言非常符合这些标准。滦平话音准分明，字正腔圆，语调比当时的北京话要“硬”一些，显得直接、清晰、明确，尤其是没有北京胡同音那种儿化、省字、尾音等发音习惯，易于学习推广。1955年10月，“全国文字改革会议”和“现代汉语规范问题学术会议”召开，将汉民族共同语的正式名称定为“普通话” 。
+        </view>
+        <view style="text-align: center;">
+          <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/1.jpg"  mode="widthFix"/>
+          <view>
+            滦平 ——“普通话之乡”
+          </view>
+        </view>
+    </view>
+</view>
+</view>

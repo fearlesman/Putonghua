@@ -1,0 +1,74 @@
+<view wx:if="{{!show}}">普通话段落练习1</view>
+<view wx:else>
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    短文练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          1/5
+        </view>
+<!-- 音频组件 -->
+<view class="cont">
+<view class="card" style="background-color: lightblue; margin-left: 0rpx;">
+  <view style="font-size: large;">
+  短文范读
+</view>
+  <view class="w-sound1">
+          <image wx:if="{{collected}}" src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/开始.png" mode="" class="w-sound1" bindtap="audioPlay"/>
+          <image wx:else="" src="https://6770-gpt-0grastut6153c6bb-1316585463.tcb.qcloud.la/pictures/%E6%9A%82%E5%81%9C.png?sign=248c0e5fc6ff3e8888787f2a04b4eef0&t=1682312598	" mode="" class="w-sound2" bindtap="pause"/>
+  </view>
+</view>
+<view class="dtl">
+  如未播放，请再次点击重试
+</view>
+</view>
+        <view class="container2">
+        </view>
+          <view class="paragraph">
+          <view class="p-detail">
+            在达瑞八岁的时候，有一天他想去看电影。因为（yīn·wèi）没有钱，他想是向爸妈要钱，还是自己挣钱（zhènɡqián）。最后他选择了后者。他自己调制（tiáozhì）了一种汽水，向过路的行人出售。可那时正是寒冷的冬天，没有人买，只有两个人例外――他的爸爸和妈妈。
+          </view>
+          <view class="p-detail">
+            他偶然有一个和非常成功的商人谈话的机会。当他对商人讲述了自己的“破产史”后，商人给了他两个重要的建议：一是尝试为别人解决一个难题；二是把精力集中在你知道的、你会的和你拥有的东西上。这两个建议很关键。因为对于一个八岁的孩子而言，他不会做的事情很多。于是他穿过大街小巷，不停地思考：人们会有什么难题，他又如何利用这个机会？
+          </view>
+          <view class="p-detail">
+            一天，吃早饭时父亲（fù·qīn）让达瑞去取报纸。美国的送报员总是把报纸从花园篱笆（líbɑ）的一个特制的管子里塞（sāi）进来。假如你想穿着睡衣舒舒服服（shūshū-fúfú或shūshū-fūfū）地吃早饭和看报纸，就必须离开温暖的房间，冒着寒风，到花园去取。虽然路短，但十分麻烦（máfɑn）。
+          </view>
+          <view class="p-detail">
+            当达瑞为父亲取报纸的时候，一个主意（zhǔyi或zhúyi）诞生了。当天（dānɡtiān）他就按响邻居（lín·jū）的门铃，对他们说，每个月只需付给他一美元，他就每天早上把报纸塞到他们的房门底下。大多数人都同意了，很快他有了七十多个顾客。
+          </view>
+          </view>
+          <button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+        </view>
+</view>
+</view>
+
+</view>
+</view>

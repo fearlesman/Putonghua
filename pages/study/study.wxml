@@ -1,0 +1,106 @@
+<!--pages/study/study.wxml-->
+<!--pages/study/ym-study/ym-study.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    普通话学习
+  </view>
+  <!-- 容器 -->
+  <view class="containerBox">
+<!-- 卡片效果 + 导航 -->
+<navigator url="/pages/study/sm-study/sm-study">
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          声母学习
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        声母，是韵母前的辅音，通常响度低、不能任意延长
+      </view>
+    </view>
+</view>
+</navigator>
+<!-- 卡片效果 + 导航 -->
+<navigator url="/pages/study/ym-middle/dx/dx">
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          韵母学习
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        韵母响度大、能延长、有音节核心且是音节可押韵的部分
+      </view>
+    </view>
+</view>
+</navigator>
+
+<navigator url="/pages/study/sd-study/sd-study">
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          声调学习
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+         同样的字，不同的声调，表达的含义也不同
+      </view>
+    </view>
+</view>
+</navigator>
+<navigator url="/pages/gzg/ehy/ehy">
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          儿化音练习
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        北京人的最爱
+      </view>
+    </view>
+</view>
+</navigator>
+<navigator url="/pages/gzg/qsc/qsc">
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          必读轻声词
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        其实不读轻声我们也能听懂
+      </view>
+    </view>
+</view>
+</navigator>
+  </view>
+<pow></pow>
+</view>
+

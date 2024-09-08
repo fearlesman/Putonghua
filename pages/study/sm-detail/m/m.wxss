@@ -1,0 +1,58 @@
+/* pages/study/sm-detail/b/b.wxss */
+.selection{
+  padding-top: 26rpx;
+  background-color: #fff;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+}
+.hearder{
+  margin-left: 25rpx;
+  margin-right: 6px;
+  background-color: #2979ff;
+  border: 1rpx solid #2979ff;
+  border-radius: 30rpx;
+  width: 7rpx;
+  height: 26rpx;
+  float: left;
+}
+.hearder-t{
+  margin-top: -6rpx;
+  font-size: 28rpx;
+}
+.card {
+  display: flex;
+  padding: 15rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+  margin: 30rpx 15rpx 15rpx 15rpx;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+}
+.home-header-line {
+  width: 100%;
+  background: #e0e3da;
+  height: 2rpx;
+  clear: both;
+}
+.word{
+  margin-left: 24rpx;
+  float: left;
+}
+.word-h{
+  font-size: 30rpx;
+}
+.word-m{
+  font-size: 24rpx;
+  margin-top: 4rpx;
+  margin-bottom: 12rpx;
+  color: #5e5e5e;
+}
+.word-c{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  line-height: 45rpx;
+}
+.w-sound{
+  width: 50rpx;
+  height: 50rpx;
+}

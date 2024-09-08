@@ -1,0 +1,652 @@
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    必读轻声词
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          1/1
+        </view>
+        <view class="home-header-line"></view>
+
+        <view class="cont">
+<view class="card" style="background-color: lightblue; margin-left: 0rpx;width: fit-content;">
+  <view style="font-size: large;">
+  范读示例
+</view>
+</view>
+<!-- <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" style="width:100px;height:10px" controls loop></audio>
+<view class="dtl">
+  如未播放，请再次点击重试
+</view> -->
+</view>
+
+        <view class="wordBox">
+          
+        
+          <text class="word-h" style="border-color: #fff; width: 98%; text-align: left;" >
+1.本表根据《普通话水平测试用普通话词语表》编制。
+2.本表供普通话水平测试第二项——读多音节词语（100个音节）测试使用。
+3.本表共收词546条（其中“子”尾词206条），按汉语拼音字母顺序排列。
+4.条目中的非轻声音节只标本调，不标变调；条目中的轻声音节，注音不标调号，如：“明白　mínɡbɑi”。
+        </text>
+        <text class="word-h">
+          爱人àiren
+案子ànzi
+        </text>
+        <text class="word-h">
+          巴掌bāzhɑnɡ
+把子bǎzi
+把子bazi
+爸爸bàbɑ
+白净báijinɡ
+班子bānzi
+板子bǎnzi
+帮手bānɡshou
+梆子bānɡzi
+膀子bǎnɡzi
+棒槌bànɡchui
+棒子bànɡzi
+包袱bāofu
+包涵bāohan
+包子bāozi
+豹子bàozi
+杯子bēizi
+被子bèizi
+本事běnshi
+本子běnzi
+鼻子bízi
+比方bǐfɑnɡ
+鞭子biānzi
+扁担biǎndɑn
+辫子biànzi
+别扭bièniu
+饼子bǐnɡzi
+拨弄bōnonɡ
+脖子bózi
+簸箕bòji
+补丁bǔdinɡ
+不由得bùyóude
+不在乎bùzàihu
+步子bùzi
+部分bùfen
+        </text>
+        <text class="word-h">
+          裁缝cáifenɡ
+财主cáizhu
+苍蝇cānɡyinɡ
+差事chàishi
+柴火cháihuo
+肠子chánɡzi
+厂子chǎnɡzi
+场子chǎnɡzi
+车子chēzi
+称呼chēnɡhu
+池子chízi
+尺子chǐzi
+虫子chónɡzi
+绸子chóuzi
+除了chúle
+锄头chútou
+畜生chùshenɡ
+窗户chuānɡhu
+窗子chuānɡzi
+锤子chuízi
+刺猬cìwei
+凑合còuhe
+村子cūnzi
+        </text>
+        <text class="word-h">
+          耷拉dālɑ
+答应dāyinɡ
+打扮dǎbɑn
+打点dǎdiɑn
+打发dǎfɑ
+打量dǎliɑnɡ
+打算dǎsuɑn
+打听dǎtinɡ
+大方dàfɑnɡ
+大爷dàye
+大夫dàifu
+带子dàizi
+袋子dàizi
+耽搁dānɡe
+耽误dānwu
+单子dānzi
+胆子dǎnzi
+担子dànzi
+刀子dāozi
+道士dàoshi
+稻子dàozi
+灯笼dēnɡlonɡ
+提防dīfɑnɡ
+笛子dízi
+底子dǐzi
+地道dìdɑo
+地方dìfɑnɡ
+弟弟dìdi
+弟兄dìxionɡ
+点心diǎnxin
+调子diàozi
+钉子dīnɡzi
+东家dōnɡjiɑ
+东西dōnɡxi
+动静dònɡjinɡ
+动弹dònɡtɑn
+豆腐dòufu
+豆子dòuzi
+嘟囔dūnɑnɡ
+肚子dǔzi
+肚子dùzi
+缎子duànzi
+对付duìfu
+对头duìtou
+队伍duìwu
+多么duōme
+        </text>
+        <text class="word-h">
+          蛾子ézi
+儿子érzi
+耳朵ěrduo
+        </text>
+        <text class="word-h">
+          贩子fànzi
+房子fánɡzi
+份子fènzi
+风筝fēnɡzhenɡ
+疯子fēnɡzi
+福气fúqi
+斧子fǔzi
+        </text>
+        <text class="word-h">
+          盖子ɡàizi
+甘蔗ɡānzhe
+杆子ɡānzi
+杆子ɡǎnzi
+干事ɡànshi
+杠子ɡànɡzi
+高粱ɡāoliɑnɡ
+膏药ɡāoyɑo
+稿子ɡǎozi
+告诉ɡàosu
+疙瘩ɡēdɑ
+哥哥ɡēɡe
+胳膊ɡēbo
+鸽子ɡēzi
+格子ɡézi
+个子ɡèzi
+根子ɡēnzi
+跟头ɡēntou
+工夫ɡōnɡfu
+弓子ɡōnɡzi
+公公ɡōnɡɡonɡ
+功夫ɡōnɡfu
+钩子ɡōuzi
+姑姑ɡūɡu
+姑娘ɡūniɑnɡ
+谷子ɡǔzi
+骨头ɡǔtou
+故事ɡùshi
+寡妇ɡuǎfu
+褂子ɡuàzi
+怪物ɡuàiwu
+关系ɡuānxi
+官司ɡuānsi
+罐头ɡuàntou
+罐子ɡuànzi
+规矩ɡuīju
+闺女ɡuīnü
+鬼子ɡuǐzi
+柜子ɡuìzi
+棍子ɡùnzi
+锅子ɡuōzi
+果子ɡuǒzi
+        </text>
+        <text class="word-h">
+          蛤蟆hámɑ
+孩子háizi
+含糊hánhu
+汉子hànzi
+行当hánɡdɑnɡ
+合同hétonɡ
+和尚héshɑnɡ
+核桃hétɑo
+盒子hézi
+红火hónɡhuo
+猴子hóuzi
+后头hòutou
+厚道hòdɑo
+狐狸húli
+胡琴húqin
+糊涂hútu
+皇上huánɡshɑnɡ
+幌子huǎnɡzi
+胡萝卜húluóbo
+活泼huópo
+火候huǒhou
+伙计huǒji
+护士hùshi
+
+        </text>
+        <text class="word-h">
+          机灵jīlinɡ
+脊梁jǐliɑnɡ
+记号jìhɑo
+记性jìxinɡ
+夹子jiāzi
+家伙jiāhuo
+架势jiàshi
+架子jiàzi
+嫁妆jiàzhuɑnɡ
+尖子jiānzi
+茧子jiǎnzi
+剪子jiǎnzi
+见识jiànshi
+毽子jiànzi
+将就jiānɡjiu
+交情jiāoqinɡ
+饺子jiǎozi
+叫唤jiàohuɑn
+轿子jiàozi
+结实jiēshi
+街坊jiēfɑnɡ
+姐夫jiěfu
+姐姐jiějie
+戒指jièzhi
+金子jīnzi
+精神jīnɡshen
+镜子jìnɡzi
+舅舅jiùjiu
+橘子júzi
+句子jùzi
+卷子juànzi
+
+        </text>
+        <text class="word-h">
+          咳嗽késou
+客气kèqi
+空子kònɡzi
+口袋kǒudɑi
+口子kǒuzi
+扣子kòuzi
+窟窿kūlonɡ
+裤子kùzǐ
+快活kuàihuo
+筷子kuàizi
+框子kuànɡzi
+困难kùnnɑn
+阔气kuòqi
+
+        </text>
+        <text class="word-h">
+          喇叭lǎbɑ
+喇嘛lǎmɑ
+篮子lánzi
+懒得lǎnde
+浪头lànɡtou
+老婆lǎopo
+老实lǎoshi
+老太太lǎotɑitɑi
+老头子lǎotóuzi
+老爷lǎoye
+老子lǎozi
+姥姥lǎolɑo
+累赘léizhui
+篱笆líbɑ
+里头lǐtou
+力气lìqi
+厉害lìhɑi
+利落lìluo
+利索lìsuo
+例子lìzi
+栗子lìzi
+痢疾lìji
+连累liánlei
+帘子liánzi
+凉快liánɡkuɑi
+粮食liánɡshi
+两口子liǎnɡkǒuzi
+料子liàozi
+林子línzi
+翎子línɡzi
+领子lǐnɡzi
+溜达liūdɑ
+聋子lónɡzi
+笼子lónɡzi
+炉子lúzi
+路子lùzi
+轮子lúnzi
+萝卜luóbo
+骡子luózi
+骆驼luòtuo
+
+        </text>
+        <text class="word-h">
+          妈妈māmɑ
+麻烦máfɑn
+麻利máli
+麻子mázi
+马虎mǎhu
+码头mǎtou
+买卖mǎimɑi
+麦子màizi
+馒头mántou
+忙活mánɡhuo
+冒失màoshi
+帽子màozi
+眉毛méimɑo
+媒人méiren
+妹妹mèimei
+门道méndao
+眯缝mīfenɡ
+迷糊míhu
+面子miànzi
+苗条miáotiɑo
+苗头miáotou
+名堂mínɡtɑnɡ
+名字mínɡzi
+明白mínɡbɑi
+蘑菇móɡu
+模糊móhu
+木匠mùjiɑnɡ
+木头mùtou
+
+        </text>
+        <text class="word-h">
+          那么nàme
+奶奶nǎinɑi
+难为nánwei
+脑袋nǎodài
+脑子nǎozi
+能耐nénɡnɑi
+你们nǐmen
+念叨niàndɑo
+念头niàntou
+娘家niánjiɑ
+镊子nièzi
+奴才núcɑi
+女婿nǚxu
+暖和nuǎnhuo
+疟疾nüèji
+
+        </text>
+        <text class="word-h">
+          拍子pāizi
+牌楼páilou
+牌子páizi
+盘算pánsuɑn
+盘子pánzi
+胖子pànɡzi
+狍子páozi
+盆子pénzi
+朋友pénɡyou
+棚子pénɡzi
+脾气píqi
+皮子pízi
+痞子pǐzi
+屁股pìɡu
+片子piānzi
+便宜piányi
+骗子piànzi
+票子piàozi
+漂亮piàoliɑnɡ
+瓶子pínɡzi
+婆家pójiɑ
+婆婆pópo
+铺盖pūɡɑi
+
+        </text>
+        <text class="word-h">
+          欺负qīfu
+旗子qízi
+前头qiántou
+钳子qiánzi
+茄子qiézi
+亲戚qīnqi
+勤快qínkuɑi
+清楚qīnɡchu
+亲家qìnɡjiɑ
+曲子qǔzi
+圈子quānzi
+拳头quántou
+裙子qúnzi
+
+        </text>
+        <text class="word-h">
+          热闹rènào
+人家rénjiɑ
+人们rénmen
+认识rènshi
+日子rìzi
+褥子rùzi
+
+        </text>
+        <text class="word-h">
+          塞子sāizi
+嗓子sǎnɡzi
+嫂子sǎozi
+扫帚sàozhou
+沙子shāzi
+傻子shǎzi
+扇子shànzi
+商量shānɡliɑnɡ
+上司shànɡsi
+上头shànɡtou
+烧饼shāobinɡ
+勺子sháozi
+少爷shàoye
+哨子shàozi
+舌头shétou
+身子shēnzi
+什么shénme
+婶子shěnzi
+生意shēnɡyi
+牲口shēnɡkou
+绳子shénɡzi
+师父shīfu
+师傅shīfu
+虱子shīzǐ
+狮子shīzǐ
+石匠shíjiɑnɡ
+石榴shíliu
+石头shítou
+时候shíhou
+实在shízɑi
+拾掇shíduo
+使唤shǐhuɑn
+世故shìɡu
+似的shìde
+事情shìqinɡ
+柿子shìzi
+收成shōuchenɡ
+收拾shōushi
+首饰shǒushi
+叔叔shūshu
+梳子shūzi
+舒服shūfu
+舒坦shūtɑn
+疏忽shūhu
+爽快shuǎnɡkuɑi
+思量sīliɑnɡ
+算计suànji
+岁数suìshu
+孙子sūnzi
+
+        </text>
+        <text class="word-h">
+          他们tāmen
+它们tāmen
+她们tāmen
+台子táizi
+太太tàitɑi
+摊子tānzi
+坛子tánzi
+毯子tǎnzi
+桃子táozi
+特务tèwu
+梯子tīzi
+蹄子tízi
+挑剔tiāoti
+挑子tiāozi
+条子tiáozi
+跳蚤tiàozɑo
+铁匠tiějiɑnɡ
+亭子tínɡzi
+头发tóufɑ
+头子tóuzi
+兔子tùzi
+妥当tuǒdɑnɡ
+唾沫tuòmo
+        </text>
+        <text class="word-h">
+          挖苦wāku
+娃娃wáwɑ
+袜子wàzi
+晚上wǎnshɑnɡ
+尾巴wěibɑ
+委屈wěiqu
+为了wèile
+位置wèizhi
+位子wèizi
+蚊子wénzi
+稳当wěndɑnɡ
+我们wǒmen
+屋子wūzi
+
+        </text>
+        <text class="word-h">
+          稀罕xīhɑn
+席子xízi
+媳妇xífu
+喜欢xǐhuɑn
+瞎子xiāzi
+匣子xiázi
+下巴xiàbɑ
+吓唬xiàhu
+先生xiānshenɡ
+乡下xiānɡxiɑ
+箱子xiānɡzi
+相声xiànɡshenɡ
+消息xiāoxi
+小伙子xiǎohuǒzi
+小气xiǎoqi
+小子xiǎozi
+笑话xiàohuɑ
+谢谢xièxie
+心思xīnsi
+星星xīnɡxinɡ
+猩猩xīnɡxinɡ
+行李xínɡli
+性子xìnɡzi
+兄弟xiōnɡdi
+休息xiūxi
+秀才xiùcɑi
+秀气xiùqi
+袖子xiùzi
+靴子xuēzi
+学生xuéshenɡ
+学问xuéwen
+        </text>
+        <text class="word-h">
+          丫头yātou
+鸭子yāzi
+衙门yámen
+哑巴yǎbɑ
+胭脂yānzhi
+烟筒yāntonɡ
+眼睛yǎnjinɡ
+燕子yànzi
+秧歌yānɡɡe
+养活yǎnɡhuo
+样子yànɡzi
+吆喝yāohe
+妖精yāojinɡ
+钥匙yàoshi
+椰子yēzi
+爷爷yéye
+叶子yèzi
+一辈子yībèizi
+衣服yīfu
+衣裳yīshɑnɡ
+椅子yǐzi
+意思yìsi
+银子yínzi
+影子yǐnɡzi
+应酬yìnɡchou
+柚子yòuzi
+冤枉yuānwɑnɡ
+院子yuànzi
+月饼yuèbinɡ
+月亮yuèliɑnɡ
+云彩yúncɑi
+运气yùnqi
+
+        </text>
+        <text class="word-h">
+          在乎zàihu
+          咱们zánmen
+          早上zǎoshɑnɡ
+          怎么zěnme
+          扎实zhāshi
+          眨巴zhǎbɑ
+          栅栏zhàlɑn
+          宅子zháizi
+          寨子zhàizi
+          张罗zhānɡluo
+          丈夫zhànɡfu
+          帐篷zhànɡpenɡ
+          丈人zhànɡren
+          帐子zhànɡzi
+          招呼zhāohu
+          招牌zhāopɑi
+          折腾zhētenɡ
+          这个zhèɡe
+          这么zhème
+          枕头zhěntou
+          镇子zhènzi
+          芝麻zhīmɑ
+          知识zhīshi
+          侄子zhízi
+          指甲zhǐjiɑ(zhījiɑ)
+          指头zhǐtou(zhítou)
+          种子zhǒnɡzi
+          珠子zhūzi
+          竹子zhúzi
+          主意zhǔyi(zhúyi)
+          主子zhǔzi
+          柱子zhùzi
+          爪子zhuǎzi
+          转悠zhuànyou
+          庄稼zhuānɡjiɑ
+          庄子zhuānɡzi
+          壮实zhuànɡshi
+          状元zhuànɡyuɑn
+          锥子zhuīzi
+          桌子zhuōzi
+          字号zìhɑo
+          自在zìzɑi
+          粽子zònɡzi
+          祖宗zǔzonɡ
+          嘴巴zuǐbɑ
+          作坊zuōfɑnɡ
+          琢磨zuómo
+
+
+        </text>
+        </view>
+        </view>
+</view>
+</view>
+
+
+</view>

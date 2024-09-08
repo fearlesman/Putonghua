@@ -1,0 +1,76 @@
+<view wx:if="{{!show}}">普通话段落练习2</view>
+<view wx:else>
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    短文练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          2/5
+        </view>
+        
+        <view class="home-header-line"></view>
+<!-- 音频组件 -->
+<view class="cont">
+<view class="card" style="background-color: lightblue; margin-left: 0rpx;">
+  <view style="font-size: large;">
+  短文范读
+</view>
+  <view class="w-sound1">
+    <image wx:if="{{collected}}" src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/开始.png" mode="" class="w-sound1" bindtap="audioPlay"/>
+          <image wx:else="" src="https://6770-gpt-0grastut6153c6bb-1316585463.tcb.qcloud.la/pictures/%E6%9A%82%E5%81%9C.png?sign=248c0e5fc6ff3e8888787f2a04b4eef0&t=1682312598" mode="" class="w-sound2" bindtap="pause"/>
+  </view>
+</view>
+<view class="dtl">
+  如未播放，请再次点击重试
+</view>
+</view>
+        <view class="container2">
+        </view>
+          <view class="paragraph">
+          <view class="p-detail">
+            夕阳落山不久，西方的天空，还燃烧着一片橘红色的晚霞。大海，也被这霞光染成了红色，而且比天空的景色更要壮观。因为它是活动的，每当一排排波浪涌起的时候（shíhou），那映照在浪峰上的霞光，又红又亮，简直就像一片片霍霍燃烧着的火焰，闪烁着，消失了。而后面的一排，又闪烁着，滚动着，涌了过来。
+          </view>
+          <view class="p-detail">
+            天空的霞光渐渐地淡下去了，深红的颜色变成了绯红（fēihónɡ），绯红又变为浅红。最后，当这一切红光都消失了的时候，那突然显得高而远了的天空，则呈现（chénɡxiàn）出一片肃穆的神色。最早出现的启明星，在这蓝色的天幕上闪烁起来了。它是那么大，那么亮，整个广漠的天幕上只有它在那里放射着令人注目的光辉，活象一盏悬挂在高空的明灯。
+          </view>
+          <view class="p-detail">
+            夜色加浓，苍空中的“明灯”越来越多了。而城市各处的真的灯火也次第亮了起来，尤其是围绕（wéirào）在海港周围山坡上的那一片灯光，从半空倒映在乌蓝的海面上，随着波浪，晃动着，闪烁着，像一串流动着的珍珠，和那一片片密布在苍穹（cānɡqiónɡ）里的星斗互相辉映，煞（shà）是好看。
+          </view>
+          <view class="p-detail">
+            在这幽美的夜色中，我踏着软绵绵（ruǎnmiánmián）的沙滩，着海边，慢慢地向前走去。海水，轻轻地抚摸着细软的沙滩，发出温柔的刷刷声。
+          </view>
+          </view>
+          <button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+        </view>
+</view>
+</view>
+
+</view>
+</view>

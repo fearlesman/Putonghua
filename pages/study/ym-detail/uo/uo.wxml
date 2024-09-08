@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    后响复韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          uo
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-m">
+          
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          起点元音也是后高圆唇元音u，由它开始，舌位向下滑到后中元音o止。
+        </view>
+    </view>
+</view>
+</view>

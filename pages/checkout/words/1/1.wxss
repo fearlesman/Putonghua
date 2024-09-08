@@ -1,0 +1,147 @@
+/* pages/index/index.wxss */
+.container{
+  background: #eee;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  height: fit-content;
+}
+.resps{
+word-break:break-all;
+margin-bottom: 50rpx;
+}
+/* pages/study/sm-detail/b/b.wxss */
+.selection{
+  padding-top: 26rpx;
+  background-color: #fff;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+  width: fit-content;
+
+}
+.hearder{
+  margin-left: 25rpx;
+  margin-right: 6px;
+  background-color: #2979ff;
+  border: 1rpx solid #2979ff;
+  border-radius: 30rpx;
+  width: 7rpx;
+  height: 26rpx;
+  float: left;
+}
+.hearder-t{
+  margin-top: -6rpx;
+  font-size: 28rpx;
+}
+.card {
+  display: flex;
+  padding: 15rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+  margin: 30rpx 15rpx 15rpx 15rpx;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+  width: 93%;
+}
+.home-header-line {
+  width: 100%;
+  background: #e0e3da;
+  height: 2rpx;
+  clear: both;
+  width: 100%;
+}
+.wordBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20rpx;
+  gap: 20rpx;
+}
+
+.word-h {
+  width: calc(33% - 15rpx);
+  padding: 10rpx 20rpx;
+  font-size: large;
+  border: lightblue 2rpx solid;
+  border-radius: 4rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.word-m{
+  font-size: 24rpx;
+  margin-top: 4rpx;
+  margin-bottom: 12rpx;
+  color: #5e5e5e;
+  text-align: center;
+  width: 667rpx;
+}
+.word-c{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  line-height: 45rpx;
+}
+.w-sound{
+  width: 30rpx;
+  height: 30rpx;
+}
+.lzbtn{
+  height: 100rpx;
+  width: 100rpx;
+	position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%,-50%);
+
+}
+.detail_bottom{
+  top: auto;
+  position:relative;
+}
+.container2{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+}
+.word-t{
+  font-size: x-large;
+  font-family:楷体;
+}
+.btn{
+  width: max-content;
+  background-color: lightblue;
+  color: #fff;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  transition: background-color 0.3s ease-out;
+}
+.btn2{
+  width: fit-content;
+  background-color: lightblue;
+  color: #fff;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  transition: background-color 0.3s ease-out;
+}
+.btn:active,
+.btn2:active {
+  background-color:lightslategray;
+  transition: none;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.radio{
+  margin-top: 10rpx;
+  font-size:initial;
+  font-family: 黑体;
+}
+.bottomItem{
+  font-size: large;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  width: fit-content;
+}

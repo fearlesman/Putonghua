@@ -1,0 +1,110 @@
+<!--
+此文件为开发者工具生成，生成时间: 2023/4/3下午10:50:05
+使用方法：
+在 D:\GPT\pages\home\home.wxml 引入模板
+
+```
+<import src="home.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+```
+
+在 D:\GPT\pages\home\home.wxss 中引入样式
+```
+@import "./home.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="card" style="background-color: rgb(153,217,234);margin-top: auto;border-radius: 11px;">
+      <swiper autoplay="false" circular="true" indicator-dots="true" style="width: 433px; text-align: center; height: auto" current="0">
+        <navigator>
+          <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);">
+            <image mode="widthFix" style="width: 334px; height: 157.891px; display: inline-block; box-sizing: border-box;" class="sk-image"></image>
+          </swiper-item>
+        </navigator>
+        <navigator class="true"></navigator>
+        <navigator open-type="switchTab" class="true"></navigator>
+      </swiper>
+    </view>
+    <view class="selection">
+      <view class="hearder"></view>
+      <view class="hearder-t sk-transparent sk-text-14-2857-334 sk-text">
+        普通话应用
+      </view>
+      <navigator>
+        <view class="moreW" style="width: 97%; height: 11px; display: block; box-sizing: border-box;margin-right: 28px;">
+          <view class="moreTxt sk-transparent sk-text-14-2857-245 sk-text" style="background-position-x: 100%;">
+            显示更多
+          </view>
+          <view class="moreImg">
+            <image class="more sk-image" mode="true" style="width: 20px; height: 17px; display: block; box-sizing: border-box"></image>
+          </view>
+        </view>
+      </navigator>
+      <view class="card">
+        <view class="word">
+          <view class="word-h sk-transparent sk-text-14-2857-82 sk-text">
+            白菜
+          </view>
+          <view class="w-sound">
+            <image class="w-sound sk-image" mode="true"></image>
+          </view>
+          <view class="word-c sk-transparent sk-text-16-0000-278 sk-text">
+            bái cài
+          </view>
+          <view class="ws">
+            <image class="ws sk-image" mode="true" style="position: relative; left: 8px; top: -3px"></image>
+          </view>
+        </view>
+        <view class="p-container">
+          <image class="p-container sk-image" mode="true"></image>
+        </view>
+      </view>
+      <view class="card">
+        <view class="word">
+          <view class="word-h sk-transparent sk-text-14-2857-197 sk-text">
+            葱
+          </view>
+          <view class="w-sound">
+            <image class="w-sound sk-image" mode="true"></image>
+          </view>
+          <view class="word-c sk-transparent sk-text-16-0000-126 sk-text">
+            cōng
+          </view>
+          <view class="ws">
+            <image class="ws sk-image" mode="true"></image>
+          </view>
+        </view>
+        <view class="p-container">
+          <image class="p-container sk-image" mode="true"></image>
+        </view>
+      </view>
+    </view>
+    <view class="selection">
+      <view class="hearder"></view>
+      <view class="hearder-t sk-transparent sk-text-14-2857-293 sk-text">
+        普通话知识
+      </view>
+      <navigator>
+        <view class="card">
+          <view class="word">
+            <view class="word-h sk-transparent sk-text-14-2857-580 sk-text">
+              滦平采音
+            </view>
+            <view class="w-sound">
+              <image class="w-sound sk-image" mode="true" style="position: relative; left: 0px; top: 12px"></image>
+            </view>zz
+            <view class="word-c sk-transparent sk-text-16-0000-879 sk-text">
+              滦平“普通话之乡”
+            </view>
+          </view>
+          <view class="p-container">
+            <image class="p-container sk-image" mode="true"></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</template>

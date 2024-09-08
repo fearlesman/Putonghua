@@ -1,0 +1,134 @@
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    多音节词语练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <view class="word-l" style="margin-left: 60rpx;" bindtap="goBack">
+  上一题
+</view>
+   <navigator url="../3/3">
+  <view class="word-d">
+  下一题
+</view>
+</navigator>
+      <!-- 文字 -->
+        <view class="word-m">
+          2/4
+        </view>
+        <view class="home-header-line"></view>
+        <view class="wordContainer">
+          <view class="head">
+            二、读多音节词语（100个音节，共20分，限时2.5分钟,请在规定时间内完成阅读，到时自动停止）
+            <view style="color: lightslategray; margin-top: 10rpx;">
+            注意：录制过程中若未朗读完请不要松手，本程序无记录断点功能，若松手请从头开始朗读
+          </view>
+        </view>
+        <text class="word-h">距离该模块测试结束还有{{remainTime}}秒</text>
+        <view class="word-h">
+  <view class="word-column">
+    <view>参考</view>
+    <view>船长</view>
+    <view>艺术家</view>
+    <view>聪明</view>
+    <view>她们</view>
+    <view>红军</view>
+    <view>煤炭</view>
+    <view>工厂</view>
+    <view>发烧</view>
+    <view>嘟囔</view>
+  </view>
+  <view class="word-column">
+    <view>黄瓜</view>
+    <view>效率</view>
+    <view>别针儿</view>
+    <view>责怪</view>
+    <view>大娘</view>
+    <view>喷洒</view>
+    <view>保温</view>
+    <view>产品</view>
+    <view>佛学</view>
+    <view>童话</view>
+  </view>
+  <view class="word-column">
+    <view>男女</view>
+    <view>做活儿</view>
+    <view>缘故</view>
+    <view>谬论</view>
+    <view>穷困</view>
+    <view>今日</view>
+    <view>完整</view>
+    <view>决定</view>
+    <view>斜坡</view>
+    <view>疲倦</view>
+  </view>
+  <view class="word-column">
+    <view>爱国</view>
+    <view>能量</view>
+    <view>英雄</view>
+    <view>口罩儿</view>
+    <view>让位</view>
+    <view>叶子</view>
+    <view>封锁</view>
+    <view>核算</view>
+    <view>而且</view>
+    <view>转脸</view>
+  </view>
+  <view class="word-column"  style="display: flex; box-sizing: border-box;height: auto;">
+    <view style="margin-top: 0rpx;">人群</view>
+    <view>飞快</view>
+    <view>牙签</view>
+    <view>丢掉</view>
+    <view>往来</view>
+    <view>罪恶</view>
+    <view>首饰</view>
+    <view style="border: lightblue solid 1rpx;">此起彼伏</view>
+  </view>
+</view>
+
+        </view>
+        <view class="detail_bottom">
+  <button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{active ? '200rpx' : 'max-content'}};">{{ btnText }}</button>
+  
+</view>
+
+<view class="bottomItem">
+    完整度：
+    <text  wx:if="{{PronCompletion==1}}">不错</text>
+    <text wx:elif="{{PronCompletion==0}}">有待提高</text>
+</view>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+<navigator url="../../../test/test" open-type="switchTab">
+  <view class="exit">
+  退出
+</view>
+</navigator>
+        </view>
+</view>
+</view>
+
+
+</view>

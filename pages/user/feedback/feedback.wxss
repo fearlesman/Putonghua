@@ -1,0 +1,21 @@
+/* pages/user/feedback/feedback.wxss */
+.btn{
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  border: 5rpx solid lightblue;
+  border-radius: 10rpx;
+  width: max-content;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: larger;
+  background-color: #fff;
+  color: #000;
+  margin-top: 30rpx;
+  transition: background-color 0.3s ease-out;
+}
+.btn:active{
+  background-color: lightslategray;
+  transition: none;
+}

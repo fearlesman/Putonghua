@@ -1,0 +1,156 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图区域 -->
+<view style="background-color: rgb(153,217,234);margin-top: auto;border-radius: 20rpx;" class="card">
+  <swiper indicator-dots="true" circular="true" autoplay="true" style="width: 760rpx; text-align: center; height: auto">
+  <navigator url="/pages/apply/apply">
+    <swiper-item>
+    <image style="width: 586rpx; height: 254rpx; display: inline-block; box-sizing: border-box" src="https://t.tutu.to/img/BljEn" mode="widthFix"/>
+    </swiper-item>
+  </navigator>
+  <navigator url="/pages/knowledge/1/1">
+    <swiper-item>
+    <image style="width: 580rpx; height: 262rpx; display: inline-block; box-sizing: border-box" src="https://t.tutu.to/img/Blxwd" mode="widthFix"/>
+    </swiper-item>
+  </navigator>
+  <navigator url="/pages/study/study" open-type="switchTab">
+    <swiper-item>
+    <image style="width: 588rpx; height: 262rpx; display: inline-block; box-sizing: border-box" src="https://t.tutu.to/img/BlYKG" mode="widthFix"/>
+    </swiper-item>
+  </navigator>
+</swiper>
+</view>
+<!-- 普通话知识 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    普通话知识
+  </view>
+
+  <navigator url="/pages/knowledge/catalog/catalog">
+    <view class="moreW" style="width: 97%; height: 20rpx; display: block; box-sizing: border-box;margin-right: 50rpx;">
+    <view class="moreTxt">
+      显示更多
+    </view>
+    <view class="moreImg">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/more.png" mode="" class="more" style="width: 36rpx; height: 30rpx; display: block; box-sizing: border-box"></image>
+    </view>
+    </view>
+  </navigator>
+
+
+<navigator url="/pages/knowledge/2/2">
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          普通话一词历史
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image style="position: relative; left: 0rpx; top: 22rpx" src="/pages/pictures/knowledge.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          “普通话”这个词早在清末就出现了。
+        </view>
+    </view>
+    <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+</view>
+</navigator>
+<navigator url="/pages/knowledge/2/2">
+  <!-- 卡片效果 -->
+    <view class="card">
+    <!-- 文字容器 -->
+      <view class="word">
+        <!-- 文字 -->
+          <view class="word-h">
+            普通话推行
+          </view>
+          <view class="w-sound" bindtap="audioPlay">
+            <image style="position: relative; left: 0rpx; top: 22rpx" src="/pages/pictures/knowledge.png" mode="" class="w-sound"/>
+          </view>
+          <view class="word-c">
+           民国与新中国时期。
+          </view>
+      </view>
+      <view class="p-container">
+        <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+      </view>
+  </view>
+  </navigator>
+</view>
+<!--普通话应用-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    普通话应用
+  </view>
+  <navigator url="/pages/apply/apply">
+    <view class="moreW" style="width: 97%; height: 20rpx; display: block; box-sizing: border-box;margin-right: 50rpx;">
+    <view class="moreTxt">
+      显示更多
+    </view>
+    <view class="moreImg">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/more.png" mode="" class="more" style="width: 36rpx; height: 30rpx; display: block; box-sizing: border-box"></image>
+    </view>
+    </view>
+  </navigator>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          白菜
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="https://t.tutu.to/img/8kajK" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          bái cài
+        </view>
+        <view class="ws" bindtap="audioPlay">
+          <image style="position: relative; left: 15rpx; top: -6rpx" src="/pages/sound/sound.png" mode="" class="ws" bindtap="bcPlay"/>
+        </view>
+    </view>
+    <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+</view>
+
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          葱
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="https://t.tutu.to/th/8kNiP" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          cōng
+        </view>
+        <view class="ws" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="coPlay"/>
+        </view>
+    </view>
+    <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+</view>
+</view>
+
+

@@ -1,0 +1,367 @@
+<view class="container" >
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    儿话音练习
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          1/1
+        </view>
+        <view class="home-header-line"></view>
+
+        <view class="cont">
+<view class="card" style="background-color: rgb(95, 164, 187); margin-left: 0rpx;width: fit-content;">
+  <view style="font-size: large;">
+  范读示例
+</view>
+</view>
+<!-- <view>
+  <view class="musicd">
+    <image src="../../pictures/play.png" wx:if="{{isPlay}}" bindtap="audioPause"></image>
+    <image src="../../pictures/stop.png" wx:else bindtap="audioPlay"></image>
+  </view>
+</view>
+<view class="dtl">
+  如未播放，请再次点击重试
+</view> -->
+</view>
+
+        <view class="wordBox">
+          
+        <text class="word-h">   
+a-ar
+
+刀把儿 dāobàr 号码儿hàomǎr
+
+戏法儿 xìfǎr 在哪儿zàinǎr
+
+找茬儿 zhǎochár 打杂儿dǎzár
+
+板擦儿 bǎncār
+
+ai-ar
+
+名牌儿 mínɡpáir 鞋带儿xiédàir
+
+壶盖儿 húɡàir 小孩儿xiǎoháir
+
+加塞儿 jiāsāir
+
+an-ar
+
+快板儿 kuàibǎnr 老伴儿 lǎobànr
+
+蒜瓣儿 suànbànr  脸盘儿 liǎnpánr
+
+脸蛋儿 liǎndànr  收摊儿 shōutānr
+
+栅栏儿 zhàlánr  包干儿 bāoɡānr
+
+笔杆儿 bǐɡǎnr 门槛儿 ménkǎnr
+        </text>
+        <text class="word-h">
+          anɡ-ar(鼻化)
+
+药方儿 yàofānɡr  赶趟儿 ɡǎntànɡr
+
+香肠儿 xiānɡchánɡr 瓜瓤儿 ɡuāránɡr
+        </text>
+        <text class="word-h">
+          ia-iar
+
+掉价儿 diàojiàr 一下儿yīxiàr
+
+豆芽儿 dòuyár
+
+ian-iar
+
+小辫儿 xiǎobiànr 照片儿 zhàopiānr
+
+扇面儿 shànmiànr 差点儿 chàdiǎnr
+
+一点儿 yīdiǎnr 雨点儿 yǔdiǎnr
+
+聊天儿 liáotiānr 拉链儿 lāliànr
+
+冒尖儿 màojiānr 坎肩儿 kǎnjiānr
+
+牙签儿 yáqiānr 露馅儿 lòuxiànr
+
+心眼儿 xīnyǎnr
+        </text>
+        <text class="word-h">
+          ianɡ>iar(鼻化)
+
+鼻梁儿 bíliánɡr 透亮儿 tòuliànɡr
+
+花样儿 huāyànɡr
+        </text>
+        <text class="word-h">
+          ua>uar
+
+脑瓜儿 nǎoɡuār 大褂儿 dàɡuàr
+
+麻花儿 máhuār 笑话儿 xiàohuɑr
+
+牙刷儿 yáshuār
+
+uai>uar
+
+一块儿 yīkuàir
+
+uan>uar
+
+茶馆儿 cháɡuǎnr 饭馆儿 fànɡuǎnr
+
+火罐儿 huǒɡuànr 落款儿 luòkuǎnr
+
+打转儿 dǎzhuǎnr 拐弯儿 ɡuǎiwānr
+
+好玩儿 hǎowánr 大腕儿 dàwànr
+        </text>
+        
+        <text class="word-h">
+          uanɡ>uar(鼻化)
+
+蛋黄儿 dànhuánɡr 打晃儿 dǎhuànɡr
+
+天窗儿 tiānchuānɡr
+        </text>
+       
+        <text class="word-h">
+          üan>üar
+
+烟卷儿 yānjuǎnr 手绢儿 shǒujuànr
+
+出圈儿 chūquānr 包圆儿 bāoyuánr
+
+人缘儿 rényuánr 绕远儿 ràoyuǎnr
+
+杂院儿 záyuànr
+        </text>
+        
+        <text class="word-h">
+          ei>er
+
+刀背儿 dāobèir 摸黑儿 mōhēir
+
+en>er
+
+老本儿 lǎoběnr 花盆儿 huāpénr
+
+嗓门儿 sǎnɡménr 把门儿 bǎménr
+
+哥们儿 ɡēmenr 纳闷儿 nàmènr
+
+后跟儿 hòuɡēnr 高跟儿鞋 ɡāoɡēnrxié
+
+别针儿 biézhēnr 一阵儿 yīzhènr
+
+走神儿 zǒushénr 大婶儿 dàshěnr
+
+小人儿书 xiǎorénrshū 
+杏仁儿 xìnɡrénr
+
+刀刃儿 dāorènr
+        </text>
+
+        <text class="word-h">
+          enɡ>er(鼻化)
+
+钢蹦儿 ɡānɡbènɡr 夹缝儿 jiāfènɡr
+
+脖颈儿 bóɡěnɡr 提成儿 tíchénɡr
+        </text>
+        
+        <text class="word-h">
+          ie>ier
+
+半截儿 bànjiér 小鞋儿 xiǎoxiér
+
+üe>üer
+
+旦角儿 dànjuér 主角儿 zhǔjuér
+        </text>
+
+        <text class="word-h">
+          uei>uer
+
+跑腿儿 pǎotuǐr 一会儿 yīhuìr
+
+耳垂儿 ěrchuír 墨水儿 mòshuǐr
+
+围嘴儿 wéizuǐr 走味儿 zǒuwèir
+
+uen>uer
+
+打盹儿 dǎdǔnr 胖墩儿 pànɡdūnr
+
+砂轮儿 shālúnr 冰棍儿 bīnɡɡùnr
+
+没准儿 méizhǔnr 开春儿 kāichūnr
+
+uenɡ>uer(鼻化)*
+
+小瓮儿 xiǎowènɡr
+        </text>
+        <text class="word-h">
+          -i(前)>er
+
+瓜子儿 ɡuāzǐr 石子儿 shízǐr
+
+没词儿 méicír 挑刺儿 tiāocìr
+
+-i(后)>er
+
+墨汁儿 mòzhīr 锯齿儿 jùchǐr
+
+记事儿 jìshìr
+        </text>
+        <text class="word-h">
+          i>i:er
+
+针鼻儿 zhēnbír 垫底儿 diàndǐr
+
+肚脐儿 dùqír 玩意儿 wányìr
+
+in>i:er
+
+有劲儿 yǒujìnr 送信儿 sònɡxìnr
+
+脚印儿 jiǎoyìnr
+        </text>
+        <text class="word-h">
+          inɡ>i:er(鼻化)
+
+花瓶儿 huāpínɡr 打鸣儿 dǎmínɡr
+
+图钉儿 túdīnɡr 门铃儿 ménlínɡr
+
+眼镜儿 yǎnjìnɡr 蛋清儿 dànqīnɡr
+
+火星儿 huǒxīnɡr 人影儿 rényǐnɡr
+
+
+        </text>
+        <text class="word-h">
+          ü>ü:er
+
+毛驴儿 máolǘr 小曲儿xiǎoqǔr
+
+痰盂儿 tányúr
+
+üe>ü:er
+
+合群儿 héqúnr
+        </text>
+        <text class="word-h">
+          e>er
+
+模特儿 mótèr 逗乐儿 dòulèr
+
+唱歌儿 chànɡɡēr 挨个儿 āiɡèr
+
+打嗝儿 dǎɡér 饭盒儿 fànhér
+
+在这儿 zàizhèr
+
+
+        </text>
+        <text class="word-h">
+          u>ur
+
+碎步儿 suìbùr 没谱儿 méipǔr
+
+儿媳妇儿 érxífur 梨核儿 líhúr
+
+泪珠儿 lèizhūr 有数儿 yǒushùr
+        </text>
+        <text class="word-h">
+          onɡ>or(鼻化)
+
+果冻儿 ɡuǒdònɡr 门洞儿 méndònɡr
+
+胡同儿 hútònɡr 抽空儿 chōukònɡr
+
+酒盅儿 jiǔzhōnɡr 小葱儿 xiǎocōnɡr
+
+ionɡ>ior(鼻化)*
+
+小熊儿 xiǎoxiónɡr
+        </text>
+       
+        <text class="word-h">
+          ɑo>ɑor
+
+红包儿 hónɡbāor 灯泡儿 dēnɡpàor
+
+半道儿 bàndàor 手套儿 shǒutàor
+
+跳高儿 tiàoɡāor 叫好儿 jiàohǎor
+
+口罩儿 kǒuzhàor 绝着儿 juézhāor
+
+口哨儿 kǒushàor 蜜枣儿 mìzǎor
+
+
+        </text>
+        <text class="word-h">
+          iao>iaor
+
+鱼漂儿 yúpiāor 火苗儿 huǒmiáor
+
+跑调儿 pǎodiàor 面条儿 miàntiáor
+
+豆角儿 dòujiǎor 开窍儿 kāiqiàor
+
+        </text>
+        <text class="word-h">
+          ou>>our
+
+衣兜儿 yīdōur 老头儿 lǎotóur
+
+年头儿 niántóur 小偷儿 xiǎotōur
+
+门口儿 ménkǒur 纽扣儿 niǔkòur
+
+线轴儿 xiànzhóur 小丑儿 xiǎochǒur
+
+加油儿 jiāyóur
+        </text>
+        <text class="word-h">
+          iou>iour
+
+顶牛儿 dǐnɡniúr 抓阄儿 zhuājiūr
+
+棉球儿 miánqiúr
+        </text>
+        <text class="word-h">
+          uo>uor
+
+火锅儿 huǒɡuōr 做活儿 zuòhuór
+
+大伙儿 dàhuǒr 邮戳儿 yóuchuōr
+
+小说儿 xiǎoshuōr 被窝儿 bèiwōr
+
+(o)>or
+
+耳膜儿 ěrmór 粉末儿 fěnmòr
+        </text>
+        </view>
+        </view>
+</view>
+</view>
+
+
+</view>

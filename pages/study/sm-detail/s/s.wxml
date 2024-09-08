@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌尖前音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          s
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound" bindtap="audioPlay"/>
+        </view>
+        <view class="word-m">
+          舌尖前、清、擦音
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          发音时,舌尖抵住下齿背,软腭上升,堵塞鼻腔通路,声带不振动,气流从舌叶和上齿背的窄缝中擦出而成声。
+        </view>
+    </view>
+</view>
+</view>

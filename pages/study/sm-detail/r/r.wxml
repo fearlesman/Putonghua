@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    舌尖后音
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          r
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound" bindtap="audioPlay"/>
+        </view>
+        <view class="word-m">
+          舌尖后、浊、擦音
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          发音的情况和sh相近，只是摩擦比sh弱，同时声带振动，气流带音。
+        </view>
+    </view>
+</view>
+</view>

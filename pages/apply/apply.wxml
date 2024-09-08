@@ -1,0 +1,573 @@
+<import src="apply.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    普通话应用
+    <view style="color: lightslategray;">（若单击未播放音频，请多次点击重试）</view>
+    <view style="color: lightslategray;">（点击图片也可播放音频）</view>
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          白菜
+        </view>
+       
+        <view class="w-sound" bindtap="bcPlay">
+          <image src="https://t.tutu.to/th/8kajK" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          bái cài
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="bcPlay"/>
+        </view>
+    </view>
+</view>
+
+<!-- 卡片效果 -->
+  <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          葱
+        </view>
+        <!-- 左侧图片 -->
+        <view class="w-sound" bindtap="coPlay">
+          <image src="https://t.tutu.to/th/8kNiP" mode="" class="w-sound"/>
+        </view>
+        <!-- 拼音 -->
+        <view class="word-c">
+          cōng
+        </view>
+        <!-- 喇叭图片 -->
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="coPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          大蒜
+        </view>
+
+        <view class="w-sound" bindtap="dsPlay">
+          <image src="https://t.tutu.to/th/8k72S" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          dà suàn
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="dsPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          稻
+        </view>
+
+        <view class="w-sound" bindtap="daPlay">
+          <image src="https://t.tutu.to/th/8klR4" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          dào
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="daPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          豆角
+        </view>
+        <view class="w-sound" bindtap="djPlay">
+          <image src="https://t.tutu.to/th/8kDrh" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          dòujiǎo
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="djPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          番茄
+        </view>
+        <view class="w-sound" bindtap="fqPlay">
+          <image src="https://t.tutu.to/th/8kfBQ" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          fān qié
+        </view>
+        <view class="ws" >
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="fqPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          番薯
+        </view>
+        <view class="w-sound" bindtap="fsPlay">
+          <image src="https://t.tutu.to/th/8kpXq" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          fān shǔ
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="fsPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          高粱
+        </view>
+        <view class="w-sound" bindtap="glPlay">
+          <image src="https://t.tutu.to/th/8kLoB" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          gāo liang
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="glPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          旱芹
+        </view>
+        <view class="w-sound" bindtap="hqPlay">
+          <image src="https://t.tutu.to/th/8keiG" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          hàn qín
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="hqPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          胡萝卜
+        </view>
+        <view class="w-sound" bindtap="hlPlay">
+          <image src="https://t.tutu.to/th/8kSU7" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          hú luó bo
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="hlPlay"/>
+        </view>
+    </view>
+</view>
+<!-- 卡片效果 -->
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          花椰菜
+        </view>
+        <view class="w-sound" bindtap="hyPlay">
+          <image src="https://t.tutu.to/th/8kJrH" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          huā yē cài
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="hyPlay"/>
+        </view>
+    </view>
+</view>
+<view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          金针菇
+        </view>
+        <view class="w-sound" bindtap="Play1">
+          <image src="https://t.tutu.to/th/8kVpw" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          jīn zhēn gū
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="Play1"/>
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+         辣椒
+        </view>
+        <view class="w-sound" bindtap="Play2">
+          <image src="https://t.tutu.to/th/8ksxI" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          là jiāo
+        </view>
+        <view class="ws">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="Play2"/>
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          落花生
+        </view>
+        <view class="w-sound" bindtap="Play3">
+          <image src="https://t.tutu.to/th/8kHoJ" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          luò huā shēng
+        </view>
+        <view class="ws" bindtap="Play3">
+          <image src="/pages/sound/sound.png" mode="" class="ws" bindtap="lhPlay"/>
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          马铃薯
+        </view>
+        <view class="w-sound" bindtap="Play4">
+          <image src="https://t.tutu.to/th/8kWtR" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          mǎ líng shǔ 
+        </view>
+        <view class="ws" bindtap="Play4">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          棉花
+        </view>
+        <view class="w-sound" bindtap="Play5">
+          <image src="https://t.tutu.to/th/8kG6e" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          mián huā 
+        </view>
+        <view class="ws" bindtap="Play5">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          木耳
+        </view>
+        <view class="w-sound" bindtap="Play6">
+          <image src="https://t.tutu.to/th/8kTyk" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          mù ěr
+        </view>
+        <view class="ws" bindtap="Play6">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          南瓜
+        </view>
+        <view class="w-sound" bindtap="Play7">
+          <image src="https://t.tutu.to/th/8k1Ug" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          nán guā
+        </view>
+        <view class="ws" bindtap="Play7">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          豌豆
+        </view>
+        <view class="w-sound" bindtap="Play8">
+          <image src="https://t.tutu.to/th/80mdq" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          wān dòu 
+        </view>
+        <view class="ws" bindtap="Play8">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          向日葵
+        </view>
+        <view class="w-sound" bindtap="Play9">
+          <image src="https://t.tutu.to/th/80U4B" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          xiàng rì kuí 
+        </view>
+        <view class="ws" bindtap="Play9">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          玉蜀黍
+        </view>
+        <view class="w-sound" bindtap="Play11">
+          <image src="https://t.tutu.to/th/800hG" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          yù shǔ shǔ 
+        </view>
+        <view class="ws" bindtap="Play11">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          芒果
+        </view>
+        <view class="w-sound" bindtap="Play12">
+          <image src="https://t.tutu.to/th/8kZaz" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          máng guǒ 
+        </view>
+        <view class="ws" bindtap="Play12">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          草莓
+        </view>
+        <view class="w-sound" bindtap="Play13">
+          <image src="https://t.tutu.to/th/8kCPj" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          cǎo méi
+        </view>
+        <view class="ws" bindtap="Play13">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          柑橘
+        </view>
+        <view class="w-sound" bindtap="Play14">
+          <image src="https://t.tutu.to/th/8kMjr" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          gān jú
+        </view>
+        <view class="ws" bindtap="Play14">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          梨
+        </view>
+        <view class="w-sound" bindtap="Play15">
+          <image src="https://t.tutu.to/th/8kEli" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          lí
+        </view>
+        <view class="ws" bindtap="Play15">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          苹果
+        </view>
+        <view class="w-sound" bindtap="Play16">
+          <image src="https://t.tutu.to/th/8krMM" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          píng guǒ 
+        </view>
+        <view class="ws" bindtap="Play16">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+
+    <view class="card">
+  <view class="p-container">
+      <image src="" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          香蕉
+        </view>
+        <view class="w-sound" bindtap="Play18">
+          <image src="https://t.tutu.to/th/80Bs5" mode="" class="w-sound"/>
+        </view>
+        <view class="word-c">
+          xiāng jiāo
+        </view>
+        <view class="ws" bindtap="Play18">
+          <image src="/pages/sound/sound.png" mode="" class="ws" />
+        </view>
+    </view>
+</view>
+</view>

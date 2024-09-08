@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    单韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          o
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-m">
+          后中圆唇元音
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          上下唇自然拢圆，舌身后缩，舌面后部隆起，舌位半高半低，介于a和i之间。
+        </view>
+    </view>
+</view>
+</view>

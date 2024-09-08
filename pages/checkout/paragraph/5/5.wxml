@@ -1,0 +1,78 @@
+<view wx:if="{{!show}}">普通话段落练习5</view>
+<view wx:else>
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    短文练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          5/5
+        </view>
+        <view class="home-header-line"></view>
+
+        <!-- 音频组件 -->
+        <view class="cont">
+<view class="card" style="background-color: lightblue; margin-left: 0rpx;">
+  <view style="font-size: large;">
+  短文范读
+</view>
+  <view class="w-sound1">
+    <image wx:if="{{collected}}" src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/开始.png" mode="" class="w-sound1" bindtap="audioPlay"/>
+          <image wx:else="" src="https://6770-gpt-0grastut6153c6bb-1316585463.tcb.qcloud.la/pictures/%E6%9A%82%E5%81%9C.png?sign=248c0e5fc6ff3e8888787f2a04b4eef0&t=1682312598" mode="" class="w-sound2" bindtap="pause"/>
+  </view>
+</view>
+<view class="dtl">
+  如未播放，请再次点击重试
+</view>
+</view>
+
+        <view class="container2">
+        </view>
+          <view class="paragraph">
+          <view class="p-detail">
+            著名教育家班杰明曾经接到一个青年人的求救电话，并与那个向往成功、渴望指点的青年人约好了见面的时间和地点。
+          </view>
+          <view class="p-detail">
+            待那个青年如约而至时，班杰明的房门敞开着，眼前的景象却令青年人颇感意外——班杰明的房间里乱七八糟、狼藉（lánɡjí）一片。没等青年人开口，班杰明就招呼道：“你看我这房间，太不整洁了，请你在门外等候一分钟，我收拾（shōushi）一下，你再进来吧。”一边说着，班杰明就轻轻地关上了房门。 不到一分钟的时间，班杰明就又打开了房门并热情地把青年人让进客厅。这时，青年人的眼前展现出另一番景象——房间里的一切已变得井然有序，而且有两杯刚刚倒好的红酒，在淡淡的香水气息里还漾（yànɡ）着微波。可是，没等青年人把满腹的有关人生和事业的疑难问题向班杰明讲出来，班杰明就非常客气（kèqi）地说道：“干杯。你可以走了。” 青年人手持酒杯一下子愣住了，既尴尬（ɡānɡà）又非常遗憾地说：“可是，我……我还没向您请教呢……” “这些……难道还不够吗？”班杰明一边微笑着一边扫视着自己的房间，轻言细语地说，“你进来又有一分钟了。”“一分钟……一分钟……”青年人若有所思地说：“我懂了，您让我明白了一分钟的时间可以做许多事情。
+          </view>
+          <view class="p-detail">
+
+          </view>
+          <view class="p-detail">
+
+          </view>
+          </view>
+          <button bindlongpress="ontouchstart" bindtouchend="ontouchend" class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+        </view>
+</view>
+</view>
+
+
+</view>
+</view>

@@ -1,0 +1,58 @@
+<!--pages/personal.wxml-->
+<view class="container">
+  <view class="section">
+    <view class="title">团队介绍</view>
+    <view class="content" style=" text-indent: 2em;">
+  <text style="font-weight: bold; text-indent: 2em;">纵横团队</text>
+<text style="display: inline;">是由一群热爱编程和软件开发的大学生组成的团队。</text>
+<view>我们致力于提供高质量的软件开发服务，为客户提供多种类型的软件开发服务，包括Web应用程序、移动应用程序、嵌入式开发和人工智能解决方案等等。我们的目标是帮助客户创造出符合市场需求的软件产品，并在开发中获取经验，取得进步。</view>
+    </view>
+  </view>
+
+  <view class="section2" >
+    <view class="titlze">团队成员及项目分工</view>
+    <view class="content">
+      <view class="member">
+        <view class="role">领导开发者：</view>
+        <view class="name">蔡吉</view>
+      </view>
+      <view class="member">
+        <view class="role">前端工程师：</view>
+        <view class="name">郭路杰</view>
+      </view>
+      <view class="member">
+        <view class="role">后端工程师：</view>
+        <view class="name">蔡吉</view>
+      </view>
+      <view class="member">
+        <view class="role">内容工程师：</view>
+        <view class="name">卫奇峰、周新慧</view>
+      </view>
+      <view class="member">
+        <view class="role">设计工程师：</view>
+        <view class="name">武泽一、吉芷慧</view>
+      </view>
+      <view class="member">
+        <view class="role">测试工程师：</view>
+        <view class="name">张舒骜、庞慧斌、高业晶、卫奇峰、吉芷慧</view>
+      </view>
+    </view>
+  </view>
+  <view class="section2" style="width: 80%;">
+    <view class="title">联系我们</view>
+    <view class="content2">
+      <view class="member">
+        <view class="role">网易163邮箱：</view>
+        <text selectable="true" class="name">p15536111247@163.com</text>
+      </view>
+      <view class="member">
+        <view class="role">QQ邮箱(推荐)：</view>
+        <text selectable="true" class="name">2795337322@qq.com</text>
+      </view>
+      <view class="member">
+        <view class="role">谷歌邮箱：</view>
+        <text selectable="true" class="name">guolujie88@gmail.com</text>
+      </view>
+    </view>
+  </view>
+</view>

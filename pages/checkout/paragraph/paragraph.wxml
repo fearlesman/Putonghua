@@ -1,0 +1,111 @@
+<!--pages/study/jm-study/jm-study.wxml-->
+<!-- 最外部容器 -->
+<view class="selection" >
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    短文朗读测试
+  </view>
+<!-- 卡片效果 + 导航 -->
+<navigator url="1/1">
+  <view class="card">
+  <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          短文测试题一
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        一大页的短文，加油！
+      </view>
+    </view>
+</view>
+</navigator>
+<!-- 卡片效果 + 导航 -->
+<navigator url="2/2">
+  <view class="card">
+  <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          短文测试题二
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        一大页的短文，加油！
+      </view>
+    </view>
+</view>
+</navigator>
+<!-- 卡片效果 + 导航 -->
+<navigator url="3/3">
+  <view class="card">
+  <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          短文测试题三
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        一大页的短文，加油！
+      </view>
+    </view>
+</view>
+</navigator>
+<!-- 卡片效果 + 导航 -->
+<navigator url="4/4">
+  <view class="card">
+  <view class="p-container">
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          短文测试题四
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        一大页的短文，加油！
+      </view>
+    </view>
+</view>
+</navigator>
+<!-- 卡片效果 + 导航 -->
+<navigator url="5/5">
+  <view class="card">
+  <view class="p-container">
+      <image src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/snxh.png" mode="" class="p-container"/>
+    </view>
+    <view class="word">
+      <!-- 文字+边框效果 -->
+        <view class="word-d">
+          短文测试题五
+        </view>
+    </view>
+    <!-- 小字容器 -->
+    <view class="word">
+      <view class="word-s">
+        一大页的短文，加油！
+      </view>
+    </view>
+</view>
+</navigator>
+</view>

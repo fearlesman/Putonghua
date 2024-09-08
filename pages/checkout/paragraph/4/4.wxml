@@ -1,0 +1,77 @@
+<view wx:if="{{!show}}">普通话段落练习4</view>
+<view wx:else>
+<view class="container">
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    短文练习题
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-m">
+          4/5
+        </view>
+        <view class="home-header-line"></view>
+
+        <!-- 音频组件 -->
+        <view class="cont">
+<view class="card" style="background-color: lightblue; margin-left: 0rpx;">
+  <view style="font-size: large;">
+  短文范读
+</view>
+  <view class="w-sound1">
+    <image wx:if="{{collected}}" src="cloud://gpt-0grastut6153c6bb.6770-gpt-0grastut6153c6bb-1316585463/pictures/开始.png" mode="" class="w-sound1" bindtap="audioPlay"/>
+          <image wx:else="" src="https://6770-gpt-0grastut6153c6bb-1316585463.tcb.qcloud.la/pictures/%E6%9A%82%E5%81%9C.png?sign=248c0e5fc6ff3e8888787f2a04b4eef0&t=1682312598	" mode="" class="w-sound2" bindtap="pause"/>
+  </view>
+</view>
+<view class="dtl">
+  如未播放，请再次点击重试
+</view>
+</view>
+
+        <view class="container2">
+        </view>
+          <view class="paragraph">
+          <view class="p-detail">
+            其实你在很久以前并不喜欢牡丹（mǔ·dān），因为它总被人作为富贵膜拜。后来你目睹了一次牡丹的落花，你相信所有的人都会为（wéi）之感动：一阵清风徐来，娇艳鲜嫩的盛期牡丹忽然整朵整朵地坠落（zhuìluò），铺撒（pūsǎ）一地绚丽（xuànlì）的花瓣。那花瓣落地时依然鲜艳夺目，如同一只奉上祭坛的大鸟脱落的羽毛，低吟着壮烈的悲歌离去。
+          </view>
+          <view class="p-detail">
+            牡丹没有花谢花败之时，要么烁于（shuòyú）枝头，要么归于泥土，它跨越萎顿（wěidùn）和衰老，由青春而死亡，由美丽而消遁（xiāodùn）。它虽美却不吝惜（lìnxī）生命，即使（jíshǐ）告别也要展示给人最后一次的惊心动魄。
+          </view>
+          <view class="p-detail">
+            所以在这阴冷的四月里，奇迹不会发生。任凭游人扫兴和诅咒，牡丹依然安之若素（ānzhī-ruòsù）。它不苟且（ɡǒuqiě）、不俯就、不妥协、不媚俗，甘愿自己冷落自己。它遵循自己的花期自己的规律，它有权利为自己选择每年一度的盛大节日。它为什么不拒绝寒冷？天南海北的看花人，依然络绎不绝（luòyì-bùjué）地涌入洛阳城。人们不会因牡丹的拒绝而拒绝它的美。如果它再被贬谪（biǎnzhé）十次，也许它就会繁衍（fányǎn）出十个洛阳牡丹城。
+          </view>
+          <view class="p-detail">
+            于是你在无言的遗憾中感悟到，富贵与高贵只是一字之差（chā）。同人一样，花儿（huā’·ér）也是有灵性的，更有品位之高低。品位这东西为（wéi）气为魂为筋骨为神韵。
+          </view>
+          </view>
+          <button bindlongpress="ontouchstart" bindtouchend="ontouchend"  class="btn" style="width: {{true ? 'fit-content' : 'fit-content'}};">{{ btnText }}</button>
+<view class="bottomItem">
+    流利度：
+    <text  wx:if="{{PronFluency>=0.9}}">优秀（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.8&&PronFluency<0.9}}">良好（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency>=0.6&&PronFluency<0.8}}">合格（{{PronFluency}}）</text>
+    <text wx:elif="{{PronFluency<0.6}}">有待提高（{{PronFluency}}）</text>
+    
+</view>
+<view class="bottomItem">
+    精准度: 
+    <text  wx:if="{{PronAccuracy>=90}}">优秀（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=80&&PronAccuracy<90}}">良好（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy>=60&&PronAccuracy<80}}">合格（{{PronAccuracy}}）</text>
+    <text wx:elif="{{PronAccuracy<60}}">有待提高（{{PronAccuracy}}）</text>
+</view>
+        </view>
+</view>
+</view>
+
+</view>
+</view>

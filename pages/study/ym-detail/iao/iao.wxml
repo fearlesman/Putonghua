@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    中响复韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          iao
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound" />
+        </view>
+        <view class="word-m">
+          
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          由前高元音i开始，舌位降至低元音a，然后再向后高圆唇元音u的方向滑升。发音过程中，舌位先降后升，由前到后，曲折幅度大。唇形从中间的元音a开始由不圆唇变为圆唇。
+        </view>
+    </view>
+</view>
+</view>

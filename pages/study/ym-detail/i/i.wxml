@@ -1,0 +1,32 @@
+<!--pages/study/sm-detail/b/b.wxml-->
+<!-- 最外部容器 -->
+<view class="selection">
+<!-- 头部蓝点效果 -->
+  <view class="hearder">
+    
+  </view>
+<!-- 头部文字 -->
+  <view class="hearder-t">
+    单韵母
+  </view>
+<!-- 卡片效果 -->
+  <view class="card">
+  <!-- 文字容器 -->
+    <view class="word">
+      <!-- 文字 -->
+        <view class="word-h">
+          i
+        </view>
+        <view class="w-sound" bindtap="audioPlay">
+          <image src="/pages/sound/sound.png" mode="" class="w-sound"/>
+        </view>
+        <view class="word-m">
+          舌面、前、高、不圆唇元音
+        </view>
+        <view class="home-header-line"></view>
+        <view class="word-c">
+          发音时，唇形呈扁平状，舌头前伸使舌尖抵住下齿背。
+        </view>
+    </view>
+</view>
+</view>

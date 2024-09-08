@@ -1,0 +1,121 @@
+<!--
+此文件为开发者工具生成，生成时间: 2023/9/4下午5:58:24
+使用方法：
+在 D:\GPT\pages\apply\apply.wxml 引入模板
+
+```
+<import src="apply.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+```
+
+在 D:\GPT\pages\apply\apply.wxss 中引入样式
+```
+@import "./apply.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="selection">
+      <view class="hearder"></view>
+      <view class="hearder-t sk-transparent">
+        普通话应用
+        <view style="color: lightslategray;" class="sk-transparent sk-text-14-2857-62 sk-text">（若单击未播放音频，请多次点击重试）</view>
+        <view style="color: lightslategray;" class="sk-transparent sk-text-14-2857-316 sk-text">（点击图片也可播放音频）</view>
+      </view>
+      <view class="card">
+        <view class="p-container">
+          <image class="p-container sk-image" mode="true"></image>
+        </view>
+        <view class="word">
+          <view class="word-h sk-transparent sk-text-14-2857-388 sk-text">
+            白菜
+          </view>
+          <view class="w-sound">
+            <image class="w-sound sk-image" mode="true"></image>
+          </view>
+          <view class="word-c sk-transparent sk-text-16-6667-291 sk-text">
+            bái cài
+          </view>
+          <view class="ws">
+            <image class="ws sk-image" mode="true"></image>
+          </view>
+        </view>
+      </view>
+      <view class="card">
+        <view class="p-container">
+          <image class="p-container sk-image" mode="true"></image>
+        </view>
+        <view class="word">
+          <view class="word-h sk-transparent sk-text-14-2857-151 sk-text">
+            葱
+          </view>
+          <view class="w-sound">
+            <image class="w-sound sk-image" mode="true"></image>
+          </view>
+          <view class="word-c sk-transparent sk-text-16-6667-880 sk-text">
+            cōng
+          </view>
+          <view class="ws">
+            <image class="ws sk-image" mode="true"></image>
+          </view>
+        </view>
+      </view>
+      <view class="card">
+        <view class="p-container">
+          <image class="p-container sk-image" mode="true"></image>
+        </view>
+        <view class="word">
+          <view class="word-h sk-transparent sk-text-14-2857-146 sk-text">
+            大蒜
+          </view>
+          <view class="w-sound">
+            <image class="w-sound sk-image" mode="true"></image>
+          </view>
+          <view class="word-c sk-transparent sk-text-16-6667-180 sk-text">
+            dà suàn
+          </view>
+          <view class="ws">
+            <image class="ws sk-image" mode="true"></image>
+          </view>
+        </view>
+      </view>
+      <view class="card">
+        <view class="p-container">
+          <image class="p-container sk-image" mode="true"></image>
+        </view>
+        <view class="word">
+          <view class="word-h sk-transparent sk-text-14-2857-430 sk-text">
+            稻
+          </view>
+          <view class="w-sound">
+            <image class="w-sound sk-image" mode="true"></image>
+          </view>
+          <view class="word-c sk-transparent sk-text-16-6667-182 sk-text">
+            dào
+          </view>
+          <view class="ws">
+            <image class="ws sk-image" mode="true"></image>
+          </view>
+        </view>
+      </view>
+      <view class="card">
+        <view class="p-container">
+          <image class="p-container sk-image" mode="true"></image>
+        </view>
+        <view class="word">
+          <view class="word-h sk-transparent sk-text-14-2857-128 sk-text">
+            豆角
+          </view>
+          <view class="w-sound">
+            <image class="w-sound sk-image" mode="true"></image>
+          </view>
+          <view class="word-c sk-transparent sk-text-16-6667-798 sk-text">
+            dòujiǎo
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
