@@ -1,0 +1,23 @@
+<view class="modal-mask" wx:if="{{innerShow}}">
+  <view class="modal">
+    <view class="modal-content">
+      <text class="modal-title">{{title}}</text>
+      <view class="modal-body">
+        <text>{{desc1}}</text>
+      </view>
+      <view class="modal-body" style="color:blue" bindtap="openPrivacyContract">
+        <text>{{urlTitle}}</text>
+      </view>
+      <view class="modal-body">
+        <text>{{desc2}}</text>
+      </view>
+      <view class="modal-footer">
+        <button class="modal-button" id="disagree-btn"
+          type="default" bindtap="handleDisagree" style="background-color: #add8e6; color:white;">拒绝</button>
+        <button class="modal-button" id="agree-btn"
+          type="default"
+          open-type="agreePrivacyAuthorization" bindagreeprivacyauthorization="handleAgree"  style="background-color: #add8e6; color:white;">同意</button>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<!--components/powered/powered.wxml-->
+<navigator url="/pages/user/info/info" class="page" bindtap="shake">
+  <!-- <view style="font-size: larger;">
+    关于我们 · 联系我们 · 加入纵横
+  </view> -->
+  <view style="padding-top: 5rpx;">
+    Copyright 2024 · 纵横团队&&青睐支教实践团 · ALL RIGHTS RESERVED
+  </view>
+</navigator>
+

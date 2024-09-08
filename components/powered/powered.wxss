@@ -1,0 +1,17 @@
+/* components/powered/powered.wxss */
+.page {
+  position:absolute;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  background-color: #f2f2f2;
+  font-size: 0.7em;
+  color: #666;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.page:active {
+  background-color: #ccc;
+  color: #fff;
+}
